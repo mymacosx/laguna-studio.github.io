@@ -49,8 +49,9 @@ h4{
     color: #333;
 }
 
-h6{
-    text-align: right;
+#phone{
+    font-size: 10px;
+    color: #553d1f;
 }
 
 .leaf
@@ -79,13 +80,16 @@ h6{
     justify-content: center;
 }*/
 
-.graficlogo
+#graficlogo
 {
-    /*box-sizing: border-box;*/
-    max-width: 45%;
+    box-sizing: border-box;
+    max-width: 40%;
+    background-size: contain;
+    opacity: 0.9;
+    /*width: 45%;*/
     display: block;
     margin: 0 auto;
-    margin-top: -25%;
+    margin-top: -20%;
     margin-left: 22%;
 }
 
