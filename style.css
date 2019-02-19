@@ -67,7 +67,7 @@ ul.hr li a.zvonok
     margin: 80px;
 }
 .box img{
-    max-width: 80%;
+    max-width: 50%;
 }
 
 /* second menu begin */
@@ -91,7 +91,7 @@ nav
 {
     float: left;
 
-    max-height: 25%;
+    max-height: 85%;
     margin-left: -35px;
 }
 .logo
@@ -158,7 +158,7 @@ ul.hs li a:hover:after
 }
 
 
-@media screen and (max-width:574px)
+@media screen and (max-width:568px)
 {
     .logo-box
     {
@@ -205,7 +205,7 @@ ul.hs li a:hover:after
 }
 
 
-@media screen and (max-width:493px)
+@media screen and (max-width:480px)
 {
     .text
     {
