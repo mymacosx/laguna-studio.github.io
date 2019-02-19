@@ -90,15 +90,16 @@ nav
 .logo-box
 {
     float: left;
-
-    max-height: 85%;
+    margin-bottom: 3%;
     margin-left: -35px;
 }
 .logo
 {
     margin: 0;
-
     text-align: center;
+}
+.logo img{
+    max-width: 100%;
 }
 
 
