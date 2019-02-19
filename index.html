@@ -1,48 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Laguna</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/bxslider.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="fonts/simple-line-icons.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-
+	<meta charset="UTF-8">
+	<title>Студия флористики, доставка цветов Калининград</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/bxslider.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+	
 </head>
 <body>
-  <!-- Листочки и лого -->
-  <img class="leafs_head" src="img/leafs_head.png" alt="leaf">
-  
-  <img id="graficlogo" src="img/logo.svg" alt="logo">
-  
-
-<!-- Header -->
-<div class="header">
-  <p id="phone">+7 (981) 45-62-18</p>
-  <p>Прием заказов с <b>9:00</b> до <b>20:00</b></p>
-  <p>Доставка по городу <b>бесплатно</b></p>
+<!-- first menu begin -->
+<div class="first">
+	<ul class="hr">
+		<li class="phone">&#128222; +7 (981) 45-62-18 WhatsApp/Viber</li>
+        <li><a class="zvonok" href="">Заказать звонок</a></li>
+        <ul class="menu-first">	
+            <li><a href="index.html">Главная</a></li>
+            <li class="otstup"><a href="">Как заказать</a></li>
+            <li><a href="">Оплата</a></li>
+            <li><a href="otzyvi.html">Отзывы</a></li>
+            <li><a href="company.html">О компании</a></li>
+            <li><a href="#foot">Контакты</a></li>        
+        </ul>
+    </ul>
 </div>
+<!-- first menu end -->
 
-<!-- Navigation Bar -->
-<div class="navbar">
-  <a href="#map-clean">О нас</a>
-  <a href="#section-pr">Наши преимущества</a>
-  <a href="#">Акции</a>
-  <!-- <a href="#">Корзина</a> -->
-</div>
-
-<!-- The flexible grid (content) -->
-<div id="section">
-    <h1>Композиции</h1>
+<!-- second menu begin -->
+<header>
+  <nav>
+    <div class="logo-box">
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="img/logo.png">
+        </a>
+      </h1>
+    </div>
     
+    <ul class="hs">
+        
+        <li><a href="#sbor">Сборные букеты</a></li>
+        <li><a href="#mono">Моно-букеты</a></li>
+        <li><a href="#comp">Комопозиции</a></li>
+        <li><a href="akcii.html">Акции</a></li>
+    </ul>
+  </nav>
+</header>
+<!-- second menu end -->
+
+
+<div class="wrapper">
+    
+    <div class="box">
+        <div>
+            <img src="img/photo-camera.svg" alt="">
+        </div>
+        Фото каждого букета <br> перед доставкой
+    </div>
+    
+    <div class="box">
+        <div>
+            <img src="img/delivery-truck.svg" alt="">
+        </div>
+        Бесплатная доставка <br> за 2 часа
+    </div>
+    
+    <div class="box">
+        <div>
+            <img src="img/bouquet.svg" alt="">
+        </div>
+        Гарантия качества. <br> Или заменим букет
+    </div>
+</div>
+<!-- Catalog begin -->
+<div id="section">
+    <h1 id="sbor">Сборные букеты</h1>    
     <div id="catalog">
         <div class="block">
           <div class="slider">
@@ -164,12 +200,26 @@
             <h3>8950 p</h3>
             <button class="cool-css-button">Заказать</button>          
         </div>
+        <div class="block">
+            <div class="slider">
+                <li>
+                <img src="img/1.jpg" alt="">
+                </li>
+                <li>
+                <img src="img/2.jpg" alt="">
+                </li>
+                 <li>
+                <img src="img/3.jpg" alt="">
+                </li>
+            </div> 
+            <h3>1650 p</h3>
+            <button class="cool-css-button">Заказать</button>          
+        </div>
     </div>
-  </div><!-- @end #w -->
+</div>
   
-  <div id="section">
-    <h1>Букеты</h1>
-    
+<div id="section">
+    <h1 id="mono">Моно-букеты</h1>   
     <div id="catalog">
         <div class="block">
           <div class="slider">
@@ -291,12 +341,26 @@
             <h3>1650 p</h3>
             <button class="cool-css-button">Заказать</button>          
         </div>
+        <div class="block">
+            <div class="slider">
+                <li>
+                <img src="img/1.jpg" alt="">
+                </li>
+                <li>
+                <img src="img/2.jpg" alt="">
+                </li>
+                 <li>
+                <img src="img/3.jpg" alt="">
+                </li>
+            </div> 
+            <h3>1650 p</h3>
+            <button class="cool-css-button">Заказать</button>          
+        </div>
     </div>
-  </div>
+</div>
 
-  <div id="section">
-    <h1>Flowers</h1>
-    
+<div id="section">
+  <h1 id="comp">Композиции</h1>  
    <div id="catalog">
         <div class="block">
           <div class="slider">
@@ -418,118 +482,55 @@
             <h3>1650 p</h3>
             <button class="cool-css-button">Заказать</button>          
         </div>
+        <div class="block">
+            <div class="slider">
+                <li>
+                <img src="img/1.jpg" alt="">
+                </li>
+                <li>
+                <img src="img/2.jpg" alt="">
+                </li>
+                 <li>
+                <img src="img/3.jpg" alt="">
+                </li>
+            </div> 
+            <h3>1650 p</h3>
+            <button class="cool-css-button">Заказать</button>          
+        </div>
     </div>
-  </div>
-  <main class="page">
-    <div id="section-pr">
-        <section class="clean-block features">
-            <div class="container">
-                <div class="block-heading">
-                    <h2 class="text-info" style="color:#ffffff;">Наши преимущества</h2>
-                    <p>Каждый день мы создаем и экспериментируем,<br> чтобы сделать наших клиентов счастливыми</p>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-5 feature-box"><i class="icon-star icon"></i>
-                        <h4>Всегда свежие цветы</h4>
-                        <p>Наши букеты будут вас радовать как минимум полторы недели</p>
-                    </div>
-                    <div class="col-md-5 feature-box"><i class="icon-clock icon"></i>
-                        <h4>Быстрая доставка</h4>
-                        <p>Мы доставляем букеты в течение 3 часов после заказа</p>
-                    </div>
-                    <div class="col-md-5 feature-box"><i class="icon-heart icon"></i>
-                        <h4>Талантливые флористы</h4>
-                        <p>Наши флористы имеют многолетний опыт работы и хороший вкус</p>
-                    </div>
-                    <div class="col-md-5 feature-box"><i class="icon-wallet icon"></i>
-                        <h4>Доступная цена</h4>
-                        <p>Ценовая политика студии вас приятно удивит</p>
-                    </div>
-                </div>
-                <div class="intro">
-                <h4></h4>
-                <p class="text-center">Студия флористики "Лагуна"<br>
-
-               🌿Букеты, композиции из цветов для любого случая<br>
-
-               🌿 Свадебная флористика<br>
-
-               🏡 ул.Карла Маркса 10<br>
-
-               📱WhatsApp/viber +7981456218</p>
-            </div>
-            </div>
-        </section>
-      </div>
-    </main>
-<!-- <div class="t502">
-  <div id="section-pr">
-  <div class="t-section__container t-container">
-    <div class="t-col t-col_12">
-      <div class="t-section__topwrapper t-align_center">
-        <div class="t-section__title t-title t-title_xs" field="btitle">Наши преимущества</div>
-        <div class="t-section__descr t-descr t-descr_xl t-margin_auto" field="bdescr">Каждый день мы создаем и экспериментируем,<br> чтобы сделать наших клиентов счастливыми</div>
-      </div>
-    </div>
-  </div>
-  <div class="t-container"> 
-    <div class="t502__col t-col t-col_4 t-align_left t-item">
-      <div class="t502__tablewrapper">
-        <div class="t502__circlewrapper">
-          <div class="t502__circle t-title" style="background-color:#333; color:#ffffff;">1</div>
-        </div>
-        <div class="t502__textwrapper">
-          <div class="t502__title t-name t-name_sm" style=" " field="li_title__1476980540792">Всегда свежие цветы</div>
-          <div class="t502__blockdescr t-descr t-descr_xs" style="" field="li_descr__1476980540792">Наши букеты будут вас радовать<br> как минимум полторы недели</div>
-        </div>
-      </div> 
-    </div> 
-    <div class="t502__col t-col t-col_4 t-align_left t-item">
-      <div class="t502__tablewrapper">
-        <div class="t502__circlewrapper">
-          <div class="t502__circle t-title" style="background-color:#333; color:#ffffff;">2</div>
-        </div>
-        <div class="t502__textwrapper">
-          <div class="t502__title t-name t-name_sm" style=" " field="li_title__1476980557179">Быстрая доставка<br>
-          </div>
-          <div class="t502__blockdescr t-descr t-descr_xs" style="" field="li_descr__1476980557179">Мы доставляем букеты<br> в течение 3 часов после заказа</div>
-        </div>
-      </div> 
-    </div> 
-    <div class="t502__col t-col t-col_4 t-align_left t-item">
-      <div class="t502__tablewrapper">
-        <div class="t502__circlewrapper"><div class="t502__circle t-title" style="background-color:#333; color:#ffffff;">3</div>
-      </div>
-      <div class="t502__textwrapper">
-        <div class="t502__title t-name t-name_sm" style=" " field="li_title__1476980560541">Талантливые флористы</div>
-        <div class="t502__blockdescr t-descr t-descr_xs" style="" field="li_descr__1476980560541">Наши флористы имеют многолетний опыт работы и хороший вкус
-        </div>
-      </div>
-    </div> 
-  </div>
 </div>
-</div>
-</div> -->
-<!--MAP-->
-<div id="map-clean">
-        <div class="container">
-            
-        </div>
-        <iframe allowfullscreen="" frameborder="0" width="100%" height="480" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2303.9089203358253!2d20.481541515891017!3d54.728816880292015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e33e081141a1e7%3A0xb451dd2552d03353!2z0YPQuy4g0JrQsNGA0LvQsCDQnNCw0YDQutGB0LAsIDEwLCDQmtCw0LvQuNC90LjQvdCz0YDQsNC0LCDQmtCw0LvQuNC90LjQvdCz0YDQsNC00YHQutCw0Y8g0L7QsdC7Liwg0KDQvtGB0YHQuNGPLCAyMzYwMjI!5e0!3m2!1sru!2sua!4v1543041865057&amp;zoom=10">
-        </iframe>
-</div>
+<!-- Catalog end -->
+
+
 <!-- Footer -->
-<div class="footer">
-  <h2></h2>
-  <a href="/" class="fa fa-viber"></a>
-  <a href="https://www.instagram.com/laguna_flowerstudio/" class="fa fa-instagram"></a>
-  <a href="https://vk.com/laguna_flowerstudio" class="fa fa-vk"></a>
-  <a href="https://glorioza77@mail.ru" class="fa fa-envelope"></a>
-</div>
+<header>
+  <nav id="foot">
+    <div class="logo-box">
+      <h1 class="logo">
+        <a href="#">
+          <img src="img/logo.png">
+        </a>
+      </h1>
+    </div>
+    
+    <ul class="hs">
+        
+        <li><a href="https://www.instagram.com/laguna_flowerstudio/">Instagram</a></li>
+        <li><a href="viber://chat?number=+7981456218">Viber</a></li>
+        <li><a href="whatsapp://send?phone=+7981456218">WhatsApp</a></li>
+        <li><a href="https://vk.com/laguna_flowerstudio">VK</a></li>
+        <li><a href="mailto:glorioza77@mail.ru">@mail</a></li>
+   </ul>
+  </nav>
+</header>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.bxslider.min.js"></script>
 <script src="js/script.js"></script>
-
 </body>
 </html>

@@ -1,0 +1,275 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    /*background: url('img/logo-bg.png') no-repeat;*/
+    /*width: 100%;*/
+    font-family: Helvetica;
+}
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+    text-align: center;
+}
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+
+    color: #f87469;
+}
+
+/* first menu begin */
+ul.hr
+{
+    margin: 20px; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+ul.hr li
+{
+    display: inline; /* Отображать как строчный элемент */
+
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+ul.hr li a
+{
+    text-decoration: none;
+
+    color: #583a11;
+}
+ul.menu-first
+{
+    text-align: right;
+}
+ul.hr li a.zvonok
+{
+    font-family: 'Helvetica', sans-serif;
+
+    color: #bf9dd5;
+}
+/* first menu end*/
+
+.wrapper
+{
+    text-align: center; /*располагаем содержимое блока по центру*/
+}
+.box
+{
+    display: inline-block; /*располагаем блоки в ряд по горизонтали*/
+    margin-top: 10px;
+    margin: 80px;
+}
+.box img{
+    max-width: 80%;
+}
+
+/* second menu begin */
+header
+{
+    background: url(img/bg-title.png) no-repeat;
+    -webkit-background-size: cover; /* Safari 3.1+ и Chrome 4.0+ */
+       -moz-background-size: cover; /* Firefox 3.6+ */
+         -o-background-size: cover; /* Opera 9.6+ */
+            background-size: cover; /* Современные браузеры */
+}
+nav
+{
+    overflow: hidden;
+
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 35px 0;
+}
+.logo-box
+{
+    float: left;
+
+    max-height: 25%;
+    margin-left: -35px;
+}
+.logo
+{
+    margin: 0;
+
+    text-align: center;
+}
+
+
+ul.hs
+{
+    line-height: 120px;
+
+    float: right;
+
+    height: 5px;
+    margin: 0;
+    margin-right: 95px;
+    padding-left: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+a
+{
+    position: relative;
+
+    display: inline-block;
+
+    text-decoration: none;
+}
+ul.hs li a
+{
+    color: #583a11;
+}
+ul.hs li
+{
+    display: inline-block;
+
+    margin-left: 25px;
+
+    transition: .5s linear;
+}
+
+ul.hs li a:after
+{
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+
+    width: 0;
+    height: 2px;
+
+    content: '';
+    transition: all .5s linear;
+
+    background: #583a11;
+}
+ul.hs li a:hover:after
+{
+    width: 100%;
+}
+
+
+@media screen and (max-width:574px)
+{
+    .logo-box
+    {
+        float: none;
+
+        margin: 0 auto;
+    }
+    .text
+    {
+        display: none;
+    }
+    .menu-first
+    {
+        display: none;
+    }
+    .box
+    {
+        display: none;
+    }
+    h1
+    {
+        margin-top: 220px;
+    }
+    header
+    {
+        max-height: 165px;
+    }
+    ul.hr li a.zvonok
+    {
+        font-size: 14px;
+
+        text-align: center;
+    }
+    ul.hs
+    {
+        float: none;
+
+        margin: 0 25px;
+    }
+    ul.hs li:first-of-type
+    {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width:493px)
+{
+    .text
+    {
+        display: none;
+    }
+    .menu-first
+    {
+        display: none;
+    }
+    .box
+    {
+        display: none;
+    }
+    h1
+    {
+        margin-top: 220px;
+    }
+    nav
+    {
+        overflow: visible;
+    }
+    ul.hs
+    {
+        line-height: 50px;
+
+        height: auto;
+        margin: 25px 25px 0 25px;
+    }
+    ul.hs li
+    {
+        display: block;
+
+        margin: 0;
+    }
+    ul.hs li:hover
+    {
+        background: rgba(0,0,0,.1);
+    }
+    ul.hs li a:after
+    {
+        content: none;
+    }
+}
+
+/* second menu end */
+
+/* up button */
+/* button end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

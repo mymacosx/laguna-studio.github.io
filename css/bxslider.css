@@ -4,7 +4,7 @@
 ===================================*/
 .block{
   display: inline-block;
-  margin-left: 4%;
+  margin-left: 10%;
   margin-bottom: 5%;
   margin-top: 3%;
 }
@@ -12,7 +12,7 @@
   position: relative;
   margin-bottom: 10px;
   padding: 0;
-  border-radius: 15px;
+  /*border-radius: 15px;*/
   /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
   *zoom: 1;
   -ms-touch-action: pan-y;
@@ -21,7 +21,7 @@
 .bx-wrapper img {
   max-width: 100%;
   display: block;
-  border-radius: 14px;
+  
 }
 .bxslider {
   margin: 0;
@@ -179,7 +179,7 @@ ul.bxslider {
 }
 .bx-wrapper .bx-caption span {
   color: #fff;
-  font-family: Arial;
+  font-family: 'Helvetica', sans-serif;
   display: block;
   font-size: .85em;
   padding: 10px;
