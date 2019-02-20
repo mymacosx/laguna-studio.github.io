@@ -28,35 +28,7 @@
     <!-- first menu end -->
 
     <!-- zvonok -->
-<div id="modal" class="modal">
-    <div>
-       <div class="text" align="center">
-       <div id="blok_tel">
-  <form action="" method="post" class="form1">
-ЗАКАЗ ОБРАТНОГО ЗВОНКА
-<input type="text" name="tel" class="inputbox" value="Номер телефона с кодом"
-       onfocus="(this.value == '0123456789') && (this.value = '')"
-       onblur="(this.value == '') && (this.value = '0123456789')">
-<input type="submit" class="button" name="submit_tel">
-  </form>
-<?if(isset($_POST["submit_tel"])) 
-{
-$email = 'glorioza77@mail.ru';
-/* Отправляем email */
-mail($email, "Заказ обратного звонка на сайте ...", "\n
-Посетитель заказал обратный звонок! \n
-Телефон : ".$_POST['tel']."
-");
-echo 'Заявка принята!';
-}
-?>
-</div>
 
-
-</div>
-        <a href="#close" title="Закрыть">Закрыть</a>
-    </div>        
-</div>
 <!-- zvonok -->
 
     <!-- second menu begin -->
