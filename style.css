@@ -270,14 +270,15 @@ footer a{
     margin-left: 10px;
 }
 footer nav a:hover{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #7192d5;
 }
 .social img{
+    max-width: 30%;
     margin-left: 10px;
     margin-bottom: 10px;
 }
 .social img:hover{
-    background: #000;
+    background: #7192d5;
     border-radius: 50%;
 }
 
