@@ -6,7 +6,6 @@
 	<title>Студия флористики, доставка цветов Калининград</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/bxslider.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="shortcut icon" type="image/png" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
     <link rel="stylesheet" href="fonts/simple-line-icons.min.css">
@@ -501,9 +500,7 @@
 </div>
 <!-- Catalog end -->
 
-
-<!-- Footer -->
-<header>
+<!--<header>
   <nav id="foot">
     <div class="logo-box">
       <h1 class="logo">
@@ -522,7 +519,20 @@
         <li><a href="mailto:glorioza77@mail.ru">@mail</a></li>
    </ul>
   </nav>
-</header>
+</header>-->
+
+<!-- Footer -->
+<footer>
+    <div id="foot">
+    <div class="social">
+        <a href="#"><img src="img/twitter.png" alt=""></a>
+        <a href="#"><img src="img/twitter.png" alt=""></a>
+        <a href="#"><img src="img/twitter.png" alt=""></a>
+        <a href="#"><img src="img/twitter.png" alt=""></a>
+    </div>
+</div>
+</footer>
+<!-- Footer -->
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -532,5 +542,26 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.bxslider.min.js"></script>
 <script src="js/script.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+ 
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('.scrollup').fadeIn();
+} else {
+$('.scrollup').fadeOut();
+}
+});
+ 
+$('.scrollup').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+ 
+});
+</script>
+
+<a href="#" class="scrollup">Наверх</a>
 </body>
 </html>

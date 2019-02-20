@@ -301,10 +301,43 @@ ul.hs li a:hover:after
 /* up button */
 /* button end */
 
+/* footer */
+footer{
+    width: 100%;
+    height: auto;
+    background: #D9C7A9;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+}
+footer a{
+    color: #000;
+    font-size: 14px;
+    margin-left: 10px;
+}
+footer nav a:hover{
+    border-bottom: 1px solid black;
+}
+.social img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.social img:hover{
+    background: #000;
+    border-radius: 50%;
+}
 
-
-
-
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.3;
+position:fixed;
+bottom:50px;
+right:50px;
+display:none;
+text-indent:-9999px;
+background: url('img/icon_top.png') no-repeat;
+}
 
 
 
