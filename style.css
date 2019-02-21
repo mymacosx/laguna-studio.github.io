@@ -24,9 +24,7 @@ h3
 
     color: #f87469;
 }
-.pusto p{
-    color: #fff;
-}
+
 .phone{
     margin: 20px; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
@@ -110,8 +108,16 @@ nav
 .logo img{
     max-width: 100%;
 }
-.thanks{
+.pusto p{
+    color: #fff;
+}
+p.thanks{
     font-size: 26px;
+}
+p{
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 50px;
 }
 .dss{
     display: inline-block; /*располагаем блоки в ряд по горизонтали*/
@@ -314,11 +320,6 @@ footer nav a:hover{
 }
 /* footer end */
 
-p{
-    text-align: center;
-    line-height: 1.5;
-    margin-bottom: 150px;
-}
 .select {
     color: #000; /* Цвет текста */
     font-weight: 700; /* Жирное начертание */
