@@ -25,14 +25,20 @@ h3
     color: #f87469;
 }
 .pusto p{
-        color: #fff;
-    }
+    color: #fff;
+}
+.phone{
+    margin: 20px; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    text-align: center;
+}
 
 /* first menu begin */
 ul.hr
 {
     margin: 20px; /* Обнуляем значение отступов */
     padding: 4px; /* Значение полей */
+    margin-right: 95px;
 }
 ul.hr li
 {
