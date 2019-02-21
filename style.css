@@ -113,15 +113,16 @@ nav
 }
 p.thanks{
     font-size: 26px;
+    margin-bottom: 30px;
 }
 p{
     text-align: center;
     line-height: 1.5;
-    margin-bottom: 50px;
+    
 }
 p.copiright{
-    text-align: left;
-    margin-bottom: 10px;
+    text-align: center;
+    font-size: 5px;
 }
 .dss{
     display: inline-block; /*располагаем блоки в ряд по горизонтали*/
@@ -133,6 +134,9 @@ p.copiright{
 .dss img{
     max-width: 90%;
     border-radius: 50%;
+}
+.rtl{
+    margin-bottom: 80px;
 }
 
 ul.hs
