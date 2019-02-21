@@ -59,7 +59,7 @@ ul.hr li a.zvonok
 }
 /* first menu end*/
 
-.wrapper
+.wrapper, .rtl
 {
     text-align: center; /*располагаем содержимое блока по центру*/
 }
@@ -104,7 +104,20 @@ nav
 .logo img{
     max-width: 100%;
 }
-
+.thanks{
+    font-size: 26px;
+}
+.dss{
+    display: inline-block; /*располагаем блоки в ряд по горизонтали*/
+    
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.dss img{
+    max-width: 90%;
+    border-radius: 50%;
+}
 
 ul.hs
 {
