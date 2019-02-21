@@ -24,6 +24,9 @@ h3
 
     color: #f87469;
 }
+.pusto p{
+        color: #fff;
+    }
 
 /* first menu begin */
 ul.hr
@@ -178,6 +181,12 @@ ul.hs li a:hover:after
     .box
     {
         display: none;
+    }
+    .pusto{
+        height: 130px;
+    }
+    .pusto p{
+        color: #fff;
     }
     h1
     {
