@@ -1,309 +1,252 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
-body
-{
+body {
     /*background: url('img/logo-bg.png') no-repeat;*/
     /*width: 100%;*/
     font-family: Helvetica;
 }
-h1
-{
+h1 {
     font-family: 'Montserrat', sans-serif;
-
     margin-top: 50px;
     margin-bottom: 30px;
-
     text-align: center;
 }
-h3
-{
+h3 {
     font-family: 'Montserrat', sans-serif;
-
     color: #f87469;
 }
-
-.phone{
-    margin: 20px; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
+.phone {
+    margin: 20px;
+    /* Обнуляем значение отступов */
+    padding: 4px;
+    /* Значение полей */
     text-align: center;
 }
-
 /* first menu begin */
-ul.hr
-{
-    margin: 20px; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
+
+ul.hr {
+    margin: 20px;
+    /* Обнуляем значение отступов */
+    padding: 4px;
+    /* Значение полей */
     margin-right: 95px;
 }
-ul.hr li
-{
-    display: inline; /* Отображать как строчный элемент */
-
-    margin-right: 5px; /* Отступ слева */
-    padding: 3px; /* Поля вокруг текста */
+ul.hr li {
+    display: inline;
+    /* Отображать как строчный элемент */
+    margin-right: 5px;
+    /* Отступ слева */
+    padding: 3px;
+    /* Поля вокруг текста */
 }
-ul.hr li a
-{
+ul.hr li a {
     text-decoration: none;
-
     color: #583a11;
 }
-ul.menu-first
-{
+ul.menu-first {
     text-align: right;
 }
-ul.hr li a.zvonok
-{
+ul.hr li a.zvonok {
     font-family: 'Helvetica', sans-serif;
-
     color: #bf9dd5;
 }
 /* first menu end*/
 
-.wrapper, .rtl
-{
-    text-align: center; /*располагаем содержимое блока по центру*/
+.wrapper, .rtl {
+    text-align: center;
+    /*располагаем содержимое блока по центру*/
 }
-.box
-{
-    display: inline-block; /*располагаем блоки в ряд по горизонтали*/
+.box {
+    display: inline-block;
+    /*располагаем блоки в ряд по горизонтали*/
     margin-top: 10px;
     margin: 80px;
 }
-.box img{
+.box img {
     max-width: 50%;
 }
-
 /* second menu begin */
-header
-{
-    background: url(img/bg-title.png) no-repeat;
-    -webkit-background-size: cover; /* Safari 3.1+ и Chrome 4.0+ */
-       -moz-background-size: cover; /* Firefox 3.6+ */
-         -o-background-size: cover; /* Opera 9.6+ */
-            background-size: cover; /* Современные браузеры */
-}
-nav
-{
-    overflow: hidden;
 
+header {
+    background: url(img/bg-title.png) no-repeat;
+    -webkit-background-size: cover;
+    /* Safari 3.1+ и Chrome 4.0+ */
+    -moz-background-size: cover;
+    /* Firefox 3.6+ */
+    -o-background-size: cover;
+    /* Opera 9.6+ */
+    background-size: cover;
+    /* Современные браузеры */
+}
+nav {
+    overflow: hidden;
     max-width: 100%;
     margin: 0 auto;
     padding: 35px 0;
 }
-.logo-box
-{
+.logo-box {
     float: left;
     margin-top: 0.5%;
     margin-left: -35px;
 }
-.logo
-{
+.logo {
     margin: 0;
     text-align: center;
 }
-.logo img{
+.logo img {
     max-width: 100%;
 }
-.pusto p{
+.pusto p {
     color: #fff;
 }
-p.thanks{
+p.thanks {
     font-size: 26px;
     margin-bottom: 30px;
 }
-p{
+p {
     text-align: center;
     line-height: 1.5;
-    
 }
-p.copiright{
+p.copiright {
     text-align: center;
     font-size: 5px;
 }
-.dss{
-    display: inline-block; /*располагаем блоки в ряд по горизонтали*/
-    
+.dss {
+    display: inline-block;
+    /*располагаем блоки в ряд по горизонтали*/
     margin: 20px;
     margin-top: 0;
     margin-bottom: 0;
 }
-.dss img{
+.dss img {
     max-width: 90%;
     border-radius: 50%;
 }
-.rtl{
+.rtl {
     margin-bottom: 80px;
 }
-.mart{
+.mart {
     max-height: 30%;
     text-align: center;
 }
-
-ul.hs
-{
+ul.hs {
     line-height: 120px;
     max-width: 100%;
-
     float: right;
-
     height: 5px;
     margin: 0;
     margin-right: 95px;
     padding-left: 0;
-
     list-style: none;
-
     text-align: center;
 }
-a
-{
+a {
     position: relative;
-
     display: inline-block;
-
     text-decoration: none;
 }
-ul.hs li a
-{
+ul.hs li a {
     color: #583a11;
 }
-ul.hs li
-{
+ul.hs li {
     display: inline-block;
-
     margin-left: 25px;
-
     transition: .5s linear;
 }
-
-ul.hs li a:after
-{
+ul.hs li a:after {
     position: absolute;
     bottom: 45px;
     left: 0;
-
     width: 0;
     height: 2px;
-
     content: '';
     transition: all .5s linear;
-
     background: #583a11;
 }
-ul.hs li a:hover:after
-{
+ul.hs li a:hover:after {
     width: 100%;
 }
-
-
-@media screen and (max-width:568px)
-{
-    .logo-box
-    {
+@media screen and (max-width:568px) {
+    .logo-box {
         float: none;
-
         margin: 0 auto;
     }
-    .text
-    {
+    .text {
         display: none;
     }
-    .menu-first
-    {
+    .menu-first {
         display: none;
     }
-    .box
-    {
+    .box {
         display: none;
     }
-    .pusto{
+    .pusto {
         height: 130px;
     }
-    .pusto p{
+    .pusto p {
         color: #fff;
     }
-    h1
-    {
+    h1 {
         margin-top: 220px;
     }
-    header
-    {
+    header {
         max-height: 165px;
     }
-    ul.hr li a.zvonok
-    {
+    ul.hr li a.zvonok {
         font-size: 14px;
-
         text-align: center;
     }
-    ul.hs
-    {
+    ul.hs {
         float: none;
-
         margin: 0 25px;
     }
-    ul.hs li:first-of-type
-    {
+    ul.hs li:first-of-type {
         margin-left: 0;
     }
 }
-
-@media screen and (max-width:480px)
-{
-    .text
-    {
+@media screen and (max-width:480px) {
+    .text {
         display: none;
     }
-    .menu-first
-    {
+    .menu-first {
         display: none;
     }
-    .box
-    {
+    .box {
         display: none;
     }
-    h1
-    {
+    h1 {
         margin-top: 220px;
     }
-    nav
-    {
+    nav {
         overflow: visible;
     }
-    ul.hs
-    {
+    ul.hs {
         line-height: 50px;
-
         height: auto;
         margin: 25px 25px 0 25px;
     }
-    ul.hs li
-    {
+    ul.hs li {
         display: block;
-
         margin: 0;
     }
-    ul.hs li:hover
-    {
-        background: rgba(0,0,0,.1);
+    ul.hs li:hover {
+        background: rgba(0, 0, 0, .1);
     }
-    ul.hs li a:after
-    {
+    ul.hs li a:after {
         content: none;
     }
 }
-
 /* second menu end */
 
 /* up button */
+
 /* button end */
 
 /* footer */
-footer{
+
+footer {
     width: 100%;
     height: auto;
     background: #D9C7A9;
@@ -311,194 +254,163 @@ footer{
     text-align: center;
     padding-top: 25px;
 }
-footer a{
+footer a {
     color: #000;
     font-size: 14px;
     margin-left: 10px;
 }
-footer nav a:hover{
+footer nav a:hover {
     border-bottom: 1px solid #7192d5;
 }
-.social img{
+.social img {
     max-width: 30%;
     margin-left: 10px;
     margin-bottom: 10px;
     opacity: 0.6;
     filter: alpha(opacity=60);
 }
-.social img:hover{
+.social img:hover {
     background: #7192d5;
     border-radius: 50%;
 }
 /* footer end */
 
 .select {
-    color: #000; /* Цвет текста */
-    font-weight: 700; /* Жирное начертание */
+    color: #000;
+    /* Цвет текста */
+    font-weight: 700;
+    /* Жирное начертание */
     margin-bottom: 20px;
 }
-.oglav1, .oglav2, .oglav3{
+.oglav1, .oglav2, .oglav3 {
     margin-bottom: 30px;
     text-align: center;
     line-height: 1.5;
-
 }
-.scrollup{
-width:40px;
-height:40px;
-opacity:0.3;
-position:fixed;
-bottom:50px;
-right:20px;
-display:none;
-text-indent:-9999px;
-background: url('img/icon_top.png') no-repeat;
+.scrollup {
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    display: none;
+    text-indent: -9999px;
+    background: url('img/icon_top.png') no-repeat;
 }
-
 /* zvonok */
+
 /* Обратный звонок - начало*/
-.modalbox-wrap
-{
-    width: 150px; 
+
+.modalbox-wrap {
+    width: 150px;
     padding: 25px 35px 20px;
 }
-.popup-title
-{
+.popup-title {
     font-size: 20px;
     font-weight: 200;
     line-height: 35px;
     text-align: center;
-
-    padding: 0 0 25px; 
-
+    padding: 0 0 25px;
     color: ##807665;
 }
-.modalbox-wrap p
-{
+.modalbox-wrap p {
     font-size: 14px;
     line-height: 24px;
-
-    float: none; 
-
+    float: none;
     color: #000;
 }
-.modalbox-wrap ul
-{
+.modalbox-wrap ul {
     padding: 0 0 35px;
 }
-.modalbox-wrap ul li
-{
+.modalbox-wrap ul li {
     font-size: 14px;
     line-height: 24px;
-
-    position: relative; 
-
+    position: relative;
     padding: 0 0 0 17px;
-
     color: #000;
 }
-.modalbox-wrap ul li:after
-{
+.modalbox-wrap ul li:after {
     position: absolute;
-    top: 10px; 
+    top: 10px;
     left: 0;
-
     width: 4px;
     height: 4px;
-
     content: ' ';
-
     border-radius: 50%;
     background: #ffa200;
 }
-#call input[type='text']
-{
+#call input[type='text'] {
     font-family: 'Arial';
     font-size: 14px;
-
     width: 97%;
     height: 25px;
     margin: 0 0 13px;
     padding: 0 0 0 3%;
-
     color: #000;
-    border: 1px solid #ddd; 
+    border: 1px solid #ddd;
     background: #e8ecea;
 }
-#call input[type='submit']
-{
+#call input[type='submit'] {
     font-size: 20px;
-
     width: 150px;
     height: 30px;
     border-radius: 10px;
-
     cursor: pointer;
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-
     color: #e8ecea;
     border: none;
     border-top: 3px solid #89e5f7;
     background: #02bbdd;
-    background:    -moz-linear-gradient(top, #02bbdd 0%, #018bae 100%);
+    background: -moz-linear-gradient(top, #02bbdd 0%, #018bae 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #02bbdd), color-stop(100%, #018bae));
     background: -webkit-linear-gradient(top, #02bbdd 0%, #018bae 100%);
-    background:      -o-linear-gradient(top, #02bbdd 0%, #018bae 100%);
-    background:     -ms-linear-gradient(top, #02bbdd 0%, #018bae 100%);
-    background:         linear-gradient(to bottom, #02bbdd 0%, #018bae 100%);
-    box-shadow: 0 2px 2px rgba(0,0,0,.82);
-
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#02bbdd', endColorstr='#018bae',GradientType=0 );
+    background: -o-linear-gradient(top, #02bbdd 0%, #018bae 100%);
+    background: -ms-linear-gradient(top, #02bbdd 0%, #018bae 100%);
+    background: linear-gradient(to bottom, #02bbdd 0%, #018bae 100%);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .82);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#02bbdd', endColorstr='#018bae', GradientType=0);
 }
-
-#call input[type="submit"]:hover { /*border-color: #ffac30;*/
-background: #ffac30;
-background: -moz-linear-gradient(top, #ffac30 0%, #f0ae30 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffac30), color-stop(100%, #f0ae30));
-background: -webkit-linear-gradient(top, #ffac30 0%, #f0ae30 100%);
-background: -o-linear-gradient(top, #ffac30 0%, #f0ae30 100%);
-background: -ms-linear-gradient(top, #ffac30 0%, #f0ae30 100%);
-background: linear-gradient(to bottom, #ffac30 0%, #f0ae30 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffac30', endColorstr='#f0ae30',GradientType=0 ); }
-.b5-left input[type="text"].error, #call input[type="text"].error { border: 1px solid #f00; }
-.b5-captcha{
+#call input[type="submit"]:hover {
+    /*border-color: #ffac30;*/
+    background: #ffac30;
+    background: -moz-linear-gradient(top, #ffac30 0%, #f0ae30 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffac30), color-stop(100%, #f0ae30));
+    background: -webkit-linear-gradient(top, #ffac30 0%, #f0ae30 100%);
+    background: -o-linear-gradient(top, #ffac30 0%, #f0ae30 100%);
+    background: -ms-linear-gradient(top, #ffac30 0%, #f0ae30 100%);
+    background: linear-gradient(to bottom, #ffac30 0%, #f0ae30 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffac30', endColorstr='#f0ae30', GradientType=0);
+}
+.b5-left input[type="text"].error, #call input[type="text"].error {
+    border: 1px solid #f00;
+}
+.b5-captcha {
     margin-bottom: 10px;
 }
-#call {display:none;}
-.zakaz-zvonka{
-width: 200px;
-height: 30px;
-background: #FE1200;
-text-align: center;
-font: 17px/30px georgia,arial,helvetica,serif;
-margin: 15px 0 0 3px;
+#call {
+    display: none;
 }
-  .zakaz-zvonka:hover{
-width: 200px;
-background: #F39200;
-text-align: center;
-font: 17px/30px georgia,arial,helvetica,serif;
+.zakaz-zvonka {
+    width: 200px;
+    height: 30px;
+    background: #FE1200;
+    text-align: center;
+    font: 17px/30px georgia, arial, helvetica, serif;
+    margin: 15px 0 0 3px;
 }
-  .zakaz-zvonka a{
-text-decoration: none;
-color: white;
-height: 100%;
-display: block;
+.zakaz-zvonka:hover {
+    width: 200px;
+    background: #F39200;
+    text-align: center;
+    font: 17px/30px georgia, arial, helvetica, serif;
+}
+.zakaz-zvonka a {
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    display: block;
 }
 /* Обратный звонок - конец*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
