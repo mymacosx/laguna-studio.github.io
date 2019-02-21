@@ -122,6 +122,7 @@ nav
 ul.hs
 {
     line-height: 120px;
+    max-width: 100%;
 
     float: right;
 
