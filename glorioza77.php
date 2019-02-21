@@ -4,13 +4,13 @@ $name = isset($_POST['name'])?change_input_text_mini($_POST['name']):'';
 $phone = isset($_POST['phone'])?change_input_text_mini($_POST['phone']):'';
 $mess = isset($_POST['mess'])?change_input_text_mini($_POST['mess']):'';
 $result = 0;
-            $to = "<span id="cloak9d6f0359317de6c5262e50ca62241ca3"><a href="mailto:info@web-ptica.ru">info@web-ptica.ru</a></span><script type="text/javascript">
+            $to = "<span id="cloak9d6f0359317de6c5262e50ca62241ca3"><a href="mailto:glorioza77@mail.ru">glorioza77@mail.ru</a></span><script type="text/javascript">
                 document.getElementById('cloak9d6f0359317de6c5262e50ca62241ca3').innerHTML = '';
                 var prefix = 'ma' + 'il' + 'to';
                 var path = 'hr' + 'ef' + '=';
-                var addy9d6f0359317de6c5262e50ca62241ca3 = 'info' + '@';
-                addy9d6f0359317de6c5262e50ca62241ca3 = addy9d6f0359317de6c5262e50ca62241ca3 + 'web-ptica' + '.' + 'ru';
-                var addy_text9d6f0359317de6c5262e50ca62241ca3 = 'info' + '@' + 'web-ptica' + '.' + 'ru';document.getElementById('cloak9d6f0359317de6c5262e50ca62241ca3').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy9d6f0359317de6c5262e50ca62241ca3 + '\'>'+addy_text9d6f0359317de6c5262e50ca62241ca3+'<\/a>';
+                var addy9d6f0359317de6c5262e50ca62241ca3 = 'glorioza77' + '@';
+                addy9d6f0359317de6c5262e50ca62241ca3 = addy9d6f0359317de6c5262e50ca62241ca3 + 'mail' + '.' + 'ru';
+                var addy_text9d6f0359317de6c5262e50ca62241ca3 = 'glorioza77' + '@' + 'mail' + '.' + 'ru';document.getElementById('cloak9d6f0359317de6c5262e50ca62241ca3').innerHTML += '<a ' + path + '\'' + prefix + ':' + addy9d6f0359317de6c5262e50ca62241ca3 + '\'>'+addy_text9d6f0359317de6c5262e50ca62241ca3+'<\/a>';
         </script>"; //ВАША ПОЧТА
             $subject = "Заявка с сайта!";
             $text =  "\nИмя - $name
