@@ -318,7 +318,7 @@ background: url('img/icon_top.png') no-repeat;
 .modalbox-wrap
 {
     width: 150px; 
-    padding: 35px 45px 30px;
+    padding: 25px 35px 20px;
 }
 .popup-title
 {
@@ -394,6 +394,7 @@ background: url('img/icon_top.png') no-repeat;
     cursor: pointer;
     text-align: center;
     text-transform: uppercase;
+    font-size: 14px;
 
     color: #e8ecea;
     border: none;
