@@ -18,7 +18,7 @@
 }
 
 .fancybox-wrap {
-	position: absolute;
+	position: relative;
 	top: 0;
 	left: 0;
 	z-index: 8020;
@@ -26,12 +26,12 @@
 
 .fancybox-skin {
 	position: relative;
-	background: #2a4663;
+	background: #dbcaac;
 	color: #444;
 	text-shadow: none;
-	-webkit-border-radius: 6px;
-	   -moz-border-radius: 6px;
-	        border-radius: 6px;
+	-webkit-border-radius: 8px;
+	   -moz-border-radius: 8px;
+	        border-radius: 8px;
 }
 
 .fancybox-opened {
