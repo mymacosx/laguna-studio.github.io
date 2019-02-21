@@ -138,6 +138,10 @@ p.copiright{
 .rtl{
     margin-bottom: 80px;
 }
+.mart{
+    max-height: 30%;
+    text-align: center;
+}
 
 ul.hs
 {
