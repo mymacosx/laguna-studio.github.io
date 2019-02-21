@@ -14,7 +14,7 @@
 	<div class="first">
 	<ul class="hr">
 		<li class="phone">&#128222; +7 (981) 45-62-18 WhatsApp/Viber</li>
-        <li><a class="button zvonok" href="#modal">Заказать звонок</a></li>
+        <li><a class="vrvzakaz modalbox zvonok" href="#call">Заказать звонок</a></li>
         <ul class="menu-first">	
         	<li><a href="index.html">Главная</a></li>
             <li class="otstup"><a href="">Как заказать</a></li>
@@ -124,5 +124,33 @@ return false;
 </script>
 
 <a href="#" class="scrollup">Наверх</a>
+
+<!-- zvonok -->
+<script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="//web-ptica.ru//wa-data/public/site/themes/web-ptica322/js/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+                    $('.modalbox').fancybox();
+                    $('input[name="phone"]').mask('+7 (999) 999-99-99');
+        });
+</script>
+
+
+<div id="call" class="modalbox-wrap">
+            <div class="form-valid">
+                <form id="contact" method="post" action="/glorioza77.php">
+                    <div class="popup-title">Заказ звонка</div>
+                    <input type="text" id="form_name" name="name" placeholder="Имя*" required />
+                    <input type="text" id="form_phone" name="phone" placeholder="Телефон*" />
+<!--  <input type="text" id="mess" name="mess" placeholder="Комментарий" /> -->
+                    <div class="b5-captcha">
+                        <div id="recaptcha2" ></div>
+                    </div>
+                    <input type="submit" class="btn" value="отправить" />
+                </form>
+            </div>
+        </div>
+<!-- zvonok -->
 </body>
 </html>
