@@ -15,7 +15,14 @@ h1 {
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
     color: #f87469;
+}
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: #544098;
 }
 .phone {
     margin: 20px;
@@ -414,3 +421,31 @@ footer nav a:hover {
     display: block;
 }
 /* Обратный звонок - конец*/
+
+/*Button*/
+button{
+    margin-left: 70px;
+}
+.cool-css-button {
+    text-align: center;
+  background: #2fc7f7;
+  display: inline-block;
+  white-space: nowrap;
+  text-decoration: none;
+  font-size: 14px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  padding: 0 25px;
+  border-radius: 4px;
+  box-shadow: inset 0 -15px 15px 0 #1ca9d5, 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  border: #20b1df 1px solid;
+}
+.cool-css-button:hover {
+  background: #55d5fd;
+  box-shadow: none;
+}
+.cool-css-button:active {
+  background: #2fc7f7;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
