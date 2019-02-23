@@ -267,14 +267,14 @@ footer {
 footer a {
     color: #000;
     font-size: 14px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 footer nav a:hover {
     border-bottom: 1px solid #f81906;
 }
 .social img {
-    max-width: 30%;
-    margin-left: 10px;
+    max-width: 25%;
+    margin-left: 5px;
     margin-bottom: 10px;
     opacity: 0.6;
     filter: alpha(opacity=60);
@@ -297,8 +297,8 @@ footer nav a:hover {
     text-align: center;
     line-height: 1.5;
 }
-/* Up button */
 
+/* Up button */
 .scrollup {
     width: 40px;
     height: 40px;
@@ -309,7 +309,7 @@ footer nav a:hover {
     display: none;
     text-indent: -9999px;
     background: url('img/icon_top.png') no-repeat;
-    z-index: 9999;
+    z-index: 999;
 }
 /* zvonok */
 
