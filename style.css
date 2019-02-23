@@ -180,6 +180,9 @@ ul.hs li a:hover:after {
         float: none;
         margin: 0 auto;
     }
+    .logo{
+        margin-left: -235px;
+    }
     .text {
         display: none;
     }
