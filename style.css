@@ -73,6 +73,7 @@ ul.ha li a.zvonok {
 }
 .box img {
     max-width: 50%;
+    opacity: 0.6;
 }
 /* second menu begin */
 
