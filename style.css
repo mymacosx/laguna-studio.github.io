@@ -267,7 +267,7 @@ footer a {
     margin-left: 10px;
 }
 footer nav a:hover {
-    border-bottom: 1px solid #7192d5;
+    border-bottom: 1px solid #f81906;
 }
 .social img {
     max-width: 30%;
@@ -277,7 +277,7 @@ footer nav a:hover {
     filter: alpha(opacity=60);
 }
 .social img:hover {
-    background: #7192d5;
+    background: #f81906;
     border-radius: 50%;
 }
 /* footer end */
@@ -294,6 +294,8 @@ footer nav a:hover {
     text-align: center;
     line-height: 1.5;
 }
+
+/* Up button */
 .scrollup {
     width: 40px;
     height: 40px;
@@ -422,7 +424,7 @@ footer nav a:hover {
 }
 /* Обратный звонок - конец*/
 
-/*Button*/
+/*Button
 button{
     margin-left: 70px;
 }
@@ -448,4 +450,42 @@ button{
 .cool-css-button:active {
   background: #2fc7f7;
   box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}*/
+a.button {
+    margin-top: 10px;
+    margin-left: 30px;
+  position: relative;
+  z-index: 1;
+  color: black;
+  font-size: 135%;
+  font-weight: 700;
+  text-decoration: none;
+  padding: .25em .5em;
+}
+a.button:after {
+  content: "Купить";  /* здесь 6 букв */
+  position: absolute;
+  z-index: -1;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  width: calc(100% + 6*(1em*90/135) - 2px*2*2);  /* где 6*(1em*90/135), где 6 - это 6 букв, 90 - это font-size after, а 135 - это font-size родителя */
+  text-align: right;
+  color: #fff;
+  font-size: 90%;
+  padding: .25em .5em;
+  border-radius: 5px;
+  border: 2px solid #d6bf96;
+  -webkit-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  background: linear-gradient(#dbc7a8, #dac9ae) no-repeat 100% 0;
+  background-size: calc(6*(1em*90/135) + .5em) 100%;
+  box-shadow: inset calc(-6*(1em*90/135) - .5em) 0 rgba(255,255,255,0);
+  transition: .3s;
+}
+a.button:hover:after {
+  box-shadow: inset calc(-6*(1em*90/135) - .5em) 0 rgba(255,255,255,.2);
+}
+a.button:active:after {
+  background-image: linear-gradient(#dac9ae, #dbc7a8);
 }
