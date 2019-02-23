@@ -1,21 +1,26 @@
 $(document).ready(function(){
   $('.slider').bxSlider({
+        mode: 'horizontal',
+        minSlides: 1,
         maxSlides: 1,
         slideWidth: 320,
+        slideHeight: 320,
         touchEnabled: true,
         infiniteLoop: false,
         hideControlOnEnd: true,
+        adaptiveHeight: true,
         responsive: true,
-        pager: false
+        pager: false,
+        ariaHidden: true
   });
 });
 
 $(function(){
   $('.crsl-items1').carousel({
     visible: 4,
-    itemMinWidth: 180,
-    itemEqualHeight: 370,
-    itemMargin: 9,
+    itemMinWidth: 320,
+    itemEqualHeight: 320,
+    itemMargin: 1,
   });
   
   $("a[href=#]").on('click', function(e) {
@@ -26,8 +31,8 @@ $(function(){
 $(function(){
   $('.crsl-items2').carousel({
     visible: 4,
-    itemMinWidth: 180,
-    itemEqualHeight: 370,
+    itemMinWidth: 320,
+    itemEqualHeight: 320,
     itemMargin: 9,
   });
   
@@ -39,8 +44,8 @@ $(function(){
 $(function(){
   $('.crsl-items3').carousel({
     visible: 4,
-    itemMinWidth: 180,
-    itemEqualHeight: 370,
+    itemMinWidth: 320,
+    itemEqualHeight: 320,
     itemMargin: 9,
   });
   
@@ -52,8 +57,8 @@ $(function(){
 $(function(){
   $('.crsl-items4').carousel({
     visible: 4,
-    itemMinWidth: 180,
-    itemEqualHeight: 370,
+    itemMinWidth: 320,
+    itemEqualHeight: 320,
     itemMargin: 9,
   });
   
@@ -65,8 +70,8 @@ $(function(){
 $(function(){
   $('.crsl-items5').carousel({
     visible: 4,
-    itemMinWidth: 180,
-    itemEqualHeight: 370,
+    itemMinWidth: 320,
+    itemEqualHeight: 320,
     itemMargin: 9,
   });
   
