@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $('.slider').bxSlider({
         maxSlides: 1,
-        slideWidth: 258,
+        slideWidth: 320,
         touchEnabled: true,
         infiniteLoop: false,
         hideControlOnEnd: true,
