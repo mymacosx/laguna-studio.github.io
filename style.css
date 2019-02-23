@@ -33,14 +33,14 @@ h5 {
 }
 /* first menu begin */
 
-ul.hr {
+ul.ha {
     margin: 20px;
     /* Обнуляем значение отступов */
     padding: 4px;
     /* Значение полей */
     margin-right: 95px;
 }
-ul.hr li {
+ul.ha li {
     display: inline;
     /* Отображать как строчный элемент */
     margin-right: 5px;
@@ -48,14 +48,14 @@ ul.hr li {
     padding: 3px;
     /* Поля вокруг текста */
 }
-ul.hr li a {
+ul.ha li a {
     text-decoration: none;
     color: #583a11;
 }
 ul.menu-first {
     text-align: right;
 }
-ul.hr li a.zvonok {
+ul.ha li a.zvonok {
     font-family: 'Helvetica', sans-serif;
     color: #bf9dd5;
 }
@@ -140,7 +140,7 @@ p.copiright {
 }
 ul.hs {
     line-height: 120px;
-    max-width: 100%;
+    max-width: 80%;
     float: right;
     height: 5px;
     margin: 0;
@@ -175,18 +175,15 @@ ul.hs li a:after {
 ul.hs li a:hover:after {
     width: 100%;
 }
-@media screen and (max-width:560px) {
+@media screen and (max-width:878px) {
     .logo-box {
         float: none;
         margin: 0 auto;
     }
     .logo {
-        margin-left: -180px;
+        margin-left: -380px;
     }
     .text {
-        display: none;
-    }
-    .menu-first {
         display: none;
     }
     .box {
@@ -199,14 +196,65 @@ ul.hs li a:hover:after {
         color: #fff;
     }
     h1 {
-        margin-top: 220px;
+        margin-top: 230px;
     }
     header {
         max-height: 165px;
     }
-    ul.hr li a.zvonok {
+    nav {
+        overflow: visible;
+    }
+    ul.hs {
+        line-height: 50px;
+        height: auto;
+        float: none;
+        margin: 25px 25px 0 25px;
+    }
+    ul.hs li {
+        display: block;
+        margin: 0;
+    }
+    ul.hs li:hover {
+        background: rgba(0, 0, 0, .1);
+    }
+    ul.hs li a:after {
+        content: none;
+    }
+}
+@media screen and (max-width:570px) {
+    .logo-box {
+        float: none;
+        margin: 0 auto;
+    }
+    .logo {
+        margin-left: -180px;
+    }
+    .text {
+        display: none;
+    }
+    .menu-first {
+        display: none;
+        padding: 50px;
+    }
+    .box {
+        display: none;
+    }
+    .pusto {
+        height: 130px;
+    }
+    .pusto p {
+        color: #fff;
+    }
+    h1 {
+        margin-top: 230px;
+    }
+    header {
+        max-height: 155px;
+    }
+    ul.ha li a.zvonok {
         font-size: 14px;
         text-align: center;
+        margin-bottom: 20px;
     }
     ul.hs {
         float: none;
@@ -217,6 +265,13 @@ ul.hs li a:hover:after {
     }
 }
 @media screen and (max-width:480px) {
+    .logo-box {
+        float: none;
+        margin: 0 auto;
+    }
+    .logo {
+        margin-left: -270px;
+    }
     .text {
         display: none;
     }
