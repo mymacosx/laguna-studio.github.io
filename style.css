@@ -73,7 +73,6 @@ ul.ha li a.zvonok {
 }
 .box img {
     max-width: 50%;
-    opacity: 0.6;
 }
 /* second menu begin */
 
@@ -103,9 +102,7 @@ nav {
     margin: 0;
     text-align: center;
 }
-.logo img {
-    max-width: 100%;
-}
+
 .pusto p {
     color: #fff;
 }
@@ -156,6 +153,7 @@ a {
     text-decoration: none;
 }
 ul.hs li a {
+    font-size: 1.15em;
     color: #583a11;
 }
 ul.hs li {
@@ -200,7 +198,7 @@ ul.hs li a:hover:after {
         margin-top: 230px;
     }
     header {
-        max-height: 165px;
+        max-height: 175px;
     }
     nav {
         overflow: visible;
@@ -250,7 +248,7 @@ ul.hs li a:hover:after {
         margin-top: 230px;
     }
     header {
-        max-height: 155px;
+        max-height: 175px;
     }
     ul.ha li a.zvonok {
         font-size: 14px;
