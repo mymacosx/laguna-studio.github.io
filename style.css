@@ -74,15 +74,6 @@ ul.ha li a.zvonok {
 .box img {
     max-width: 50%;
 }
-.box2 {
-    display: inline-block;
-    /*располагаем блоки в ряд по горизонтали*/
-    
-    
-}
-.box2 img {
-    max-width: 40%;
-}
 /* second menu begin */
 
 header {
@@ -183,6 +174,26 @@ ul.hs li a:after {
 ul.hs li a:hover:after {
     width: 100%;
 }
+/* Для небольших устройств (смартфоны) */
+.container img {
+  max-width: 100%;
+  margin-left: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+/* Для средних устройств (планшеты) */
+@media (min-width: 420px) {
+  .container img {
+    max-width: 48%;
+  }
+}
+/* Для больших устройств (ноуты, пк) */
+@media (min-width: 760px) {
+  .container img {
+    max-width: 24%;
+  }
+}
 @media screen and (max-width:878px) {
     .logo-box {
         float: none;
@@ -196,11 +207,6 @@ ul.hs li a:hover:after {
     }
     .box {
         display: none;
-    }
-    .box2 {
-        float: none;
-        margin: 0 auto;
-        margin-top: 150px;
     }
     .pusto {
         height: 1130px;
@@ -252,11 +258,6 @@ ul.hs li a:hover:after {
     .box {
         display: none;
     }
-    .box2 {
-        float: none;
-        margin: 0 auto;
-        margin-top: 150px;
-    }
     .pusto {
         height: 130px;
     }
@@ -298,11 +299,6 @@ ul.hs li a:hover:after {
     }
     .box {
         display: none;
-    }
-    .box2 {
-        float: none;
-        margin: 0 auto;
-        margin-top: 150px;
     }
     h1 {
         margin-top: 220px;
