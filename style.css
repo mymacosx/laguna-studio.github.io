@@ -74,6 +74,15 @@ ul.ha li a.zvonok {
 .box img {
     max-width: 50%;
 }
+.box2 {
+    display: inline-block;
+    /*располагаем блоки в ряд по горизонтали*/
+    
+    
+}
+.box2 img {
+    max-width: 40%;
+}
 /* second menu begin */
 
 header {
@@ -188,6 +197,11 @@ ul.hs li a:hover:after {
     .box {
         display: none;
     }
+    .box2 {
+        float: none;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
     .pusto {
         height: 1130px;
     }
@@ -238,6 +252,11 @@ ul.hs li a:hover:after {
     .box {
         display: none;
     }
+    .box2 {
+        float: none;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
     .pusto {
         height: 130px;
     }
@@ -279,6 +298,11 @@ ul.hs li a:hover:after {
     }
     .box {
         display: none;
+    }
+    .box2 {
+        float: none;
+        margin: 0 auto;
+        margin-top: 150px;
     }
     h1 {
         margin-top: 220px;
@@ -355,8 +379,7 @@ footer nav a:hover {
     margin-left: 1%;
     margin-right: 1%;
     display: flex;
-    width: 500px;
-    height: 500px;
+    
     margin-top: 10px;
     padding: 0;
     height: auto;
