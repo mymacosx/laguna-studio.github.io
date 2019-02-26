@@ -44,6 +44,7 @@ h5 {
 }
 .roistat-phone{
     color: #000;
+    margin-left: 5px;
 }
 .roistat-call{
     color: #bd1c5c;
@@ -105,8 +106,9 @@ ul.menu-first {
 .box {
     display: inline-block;
     /*располагаем блоки в ряд по горизонтали*/
-    margin-top: 10px;
-    margin: 80px;
+    
+    margin-left: 50px;
+    padding: 50px;
 }
 .box img {
     max-width: 50%;
