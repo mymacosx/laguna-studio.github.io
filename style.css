@@ -61,6 +61,9 @@ ul.ha li a.zvonok {
 }
 /* first menu end*/
 
+.wrapper{
+    background: #f9f9fa;
+}
 .wrapper, .rtl {
     text-align: center;
     /*располагаем содержимое блока по центру*/
@@ -77,7 +80,7 @@ ul.ha li a.zvonok {
 /* second menu begin */
 
 header {
-    background: url(img/bg-title.png) no-repeat;
+    /*background: url(img/Asset 1.png) no-repeat;*/
     -webkit-background-size: cover;
     /* Safari 3.1+ и Chrome 4.0+ */
     -moz-background-size: cover;
@@ -95,8 +98,9 @@ nav {
 }
 .logo-box {
     float: left;
-    margin-top: 0.5%;
-    margin-left: -35px;
+    margin-top: -3.8%;
+    margin-left: -65px;
+    opacity: 0.98;
 }
 .logo {
     margin: 0;
@@ -153,7 +157,8 @@ a {
     text-decoration: none;
 }
 ul.hs li a {
-    font-size: 1.15em;
+    text-transform: uppercase;
+    font-size: 0.9em;
     color: #583a11;
 }
 ul.hs li {
@@ -375,18 +380,6 @@ footer nav a:hover {
     margin-bottom: 30px;
     text-align: center;
     line-height: 1.5;
-}
-.tile img{
-    margin-left: 1%;
-    margin-right: 1%;
-    display: flex;
-    
-    margin-top: 10px;
-    padding: 0;
-    height: auto;
-}
-.one{
-    display: inline-block;
 }
 
 /* Up button */
