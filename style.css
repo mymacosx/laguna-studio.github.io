@@ -176,10 +176,11 @@ ul.hs li a:hover:after {
 }
 /* Для небольших устройств (смартфоны) */
 .container{
-    margin-top: 150px;
+    margin-top: 260px;
 }
 .container img {
   max-width: 100%;
+  margin-left: 2px;
   margin-top: 8px;
   margin-bottom: 8px;
   display: inline-block;
@@ -188,13 +189,14 @@ ul.hs li a:hover:after {
 @media (min-width: 420px) {
   .container img {
     max-width: 48%;
+    margin-left: 2px;
   }
 }
 /* Для больших устройств (ноуты, пк) */
 @media (min-width: 760px) {
   .container img {
     max-width: 48%;
-    margin-left: 15px;
+    margin-left: 10px;
   }
 }
 @media screen and (max-width:878px) {
