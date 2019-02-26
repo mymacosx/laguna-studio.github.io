@@ -24,6 +24,42 @@ h5 {
     font-size: 20px;
     color: #5d3b1d;
 }
+/* top-block*/
+.top-block{
+    position: relative;
+    background: none;
+    z-index: 13;
+    border-bottom: 1px solid #f6f6f6;
+}
+.top-block-item{
+    border: none;
+    line-height: 18px;
+    float: left;
+}
+.row{
+    margin: 0px -15px 0px -15px;
+    padding: 0;
+    box-sizing: border-box;
+    font: 15px/24px "Open Sans", Arial, sans-serif;
+}
+.roistat-phone{
+    color: #000;
+}
+.roistat-call{
+    color: #bd1c5c;
+    margin-left: 5px;
+}
+.top-block-item .phone-block .callback-block {
+    display: block;
+    font-size: .867em;
+    line-height: 18px;
+}
+.max-width{
+    padding: 0px 30px,
+    margin: auto;
+    background: #fff;
+    float: none;
+}
 .phone {
     margin: 20px;
     /* Обнуляем значение отступов */
@@ -32,7 +68,6 @@ h5 {
     text-align: center;
 }
 /* first menu begin */
-
 ul.ha {
     margin: 20px;
     /* Обнуляем значение отступов */
@@ -51,19 +86,18 @@ ul.ha li {
 ul.ha li a {
     text-decoration: none;
     color: #583a11;
+    text-transform: uppercase;
+    font-size: 0.8em;
 }
 ul.menu-first {
     text-align: right;
-}
-ul.ha li a.zvonok {
-    font-family: 'Helvetica', sans-serif;
-    color: #bf9dd5;
 }
 /* first menu end*/
 
 .wrapper{
     background: #f9f9fa;
 }
+
 .wrapper, .rtl {
     text-align: center;
     /*располагаем содержимое блока по центру*/
