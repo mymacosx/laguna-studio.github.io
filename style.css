@@ -125,17 +125,17 @@ header {
     /* Opera 9.6+ */
     background-size: cover;
     /* Современные браузеры */
-    max-height: 10%;
+    margin-bottom: 0;
 }
 nav {
     overflow: hidden;
     max-width: 100%;
     margin: 0 auto;
-    padding: 35px 0;
+    padding: 15px 0;
 }
 .logo-box {
     float: left;
-    margin-top: -3.8%;
+    margin-top: -1.8%;
     margin-left: -45px;
     opacity: 0.98;
 }
