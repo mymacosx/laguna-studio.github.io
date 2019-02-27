@@ -125,6 +125,7 @@ header {
     /* Opera 9.6+ */
     background-size: cover;
     /* Современные браузеры */
+    max-height: 10%;
 }
 nav {
     overflow: hidden;
@@ -135,7 +136,7 @@ nav {
 .logo-box {
     float: left;
     margin-top: -3.8%;
-    margin-left: -65px;
+    margin-left: -45px;
     opacity: 0.98;
 }
 .logo {
