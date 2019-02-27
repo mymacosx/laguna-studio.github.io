@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    /*background: url('img/logo-bg.png') no-repeat;*/
+    background-color: #fff; 
     /*width: 100%;*/
     font-family: Helvetica;
 }
@@ -113,19 +113,14 @@ ul.menu-first {
 .box img {
     max-width: 50%;
 }
+.circle{
+    font-size: 5px;
+}
 /* second menu begin */
 
 header {
-    /*background: url(img/bg-title.png) no-repeat;*/
-    -webkit-background-size: cover;
-    /* Safari 3.1+ и Chrome 4.0+ */
-    -moz-background-size: cover;
-    /* Firefox 3.6+ */
-    -o-background-size: cover;
-    /* Opera 9.6+ */
-    background-size: cover;
-    /* Современные браузеры */
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
 }
 nav {
     overflow: hidden;
