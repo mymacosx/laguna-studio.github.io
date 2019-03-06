@@ -190,7 +190,8 @@ a {
 }
 ul.hs li a {
     text-transform: uppercase;
-    font-size: 0.9em;
+    font-size: 0.75em;
+    font-weight: bold;
     color: #583a11;
 }
 ul.hs li {
