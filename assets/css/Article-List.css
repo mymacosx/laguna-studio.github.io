@@ -72,7 +72,7 @@
 }
 
 .row {
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 .product-small {
@@ -196,9 +196,12 @@
 }
 
 .navbar.navbar-light.navbar-expand-xl.bg-white.shadow-sm.nav-space {
-  margin-bottom: 20px;
 }
 
 .navbar.navbar-light.navbar-expand-lg.sticky-top.bg-light.text-sm-center.text-md-center.shadow-none.nav-space-up {
+}
+
+.text-capitalize.text-center.d-xl-flex.justify-content-xl-center.align-items-xl-center.slogan-one {
+  display: none;
 }
 
