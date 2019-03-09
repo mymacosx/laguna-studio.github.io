@@ -72,6 +72,7 @@
 }
 
 .row {
+  margin-top: 100px;
 }
 
 .product-small {
@@ -192,5 +193,12 @@
   opacity: 0.6;
   margin-bottom: 10px;
   font-size: 45px;
+}
+
+.navbar.navbar-light.navbar-expand-xl.bg-white.shadow-sm.nav-space {
+  margin-bottom: 20px;
+}
+
+.navbar.navbar-light.navbar-expand-lg.sticky-top.bg-light.text-sm-center.text-md-center.shadow-none.nav-space-up {
 }
 
