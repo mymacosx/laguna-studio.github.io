@@ -229,3 +229,37 @@
   }
 }
 
+.ninja-one {
+  width: 1000px;
+  margin: 10px auto;
+}
+
+#ninja-slider {
+  float: right;
+}
+
+#thumbnail-slider {
+  float: right;
+}
+
+.slider-vert {
+  text-decoration: none;
+}
+
+.col.col-first {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.slider {
+  ul.bxslider {  margin: 0;
+  padding: 0;
+}
+
+.tovar {
+  text-align: right;
+}
+
+.h1, h1 {
+}
+
