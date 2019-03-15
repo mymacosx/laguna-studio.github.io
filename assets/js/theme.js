@@ -23,3 +23,11 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function() {
+    $('.rs-slider').rs-slider();
+});
+$(document).ready(function() {
+    $('.pgwSlider').pgwSlider();
+});
+
+
