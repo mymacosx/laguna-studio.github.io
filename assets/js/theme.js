@@ -7,7 +7,7 @@ $( document ).ready(function( $ ) {
             fade: true,
 			arrows: true,
 			buttons: false,
-            startSlide: 0,
+            //startSlide: 0,
             imageScaleMode: 'contain',
             //autoScaleLayers: false
 			thumbnailsPosition: 'left',
@@ -16,7 +16,7 @@ $( document ).ready(function( $ ) {
 			//visibleSize: 100,
 			//forceSize: 'fullWidth'
             fullScreen: true,
-            fadeFullScreen: true,
+            //fadeFullScreen: true,
             //shuffle: false,
             //smallSize: 500,
 			//mediumSize: 800,
