@@ -54,7 +54,7 @@
 }
 
 ul.pgwSlider, .pgwSlider ul {
-  float: left;
+  float: right;
   width: 25%;
   padding: 0;
   list-style: none;
