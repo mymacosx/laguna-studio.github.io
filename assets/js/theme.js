@@ -7,16 +7,18 @@ $( document ).ready(function( $ ) {
             fade: true,
 			arrows: true,
 			buttons: false,
+            //autoScaleLayers: false
 			thumbnailsPosition: 'left',
 			thumbnailPointer: false,
             aspectRatio: 1,
-			//visibleSize: '60%',
+			//visibleSize: 100,
 			//forceSize: 'fullWidth'
             fullScreen: true,
+            fadeFullScreen: true,
             shuffle: true,
             smallSize: 500,
-			mediumSize: 1000,
-			largeSize: 3000,
+			mediumSize: 800,
+			largeSize: 1200,
 			thumbnailArrows: false,
 			autoplay: false,
 			thumbnailWidth: 60,
@@ -27,29 +29,29 @@ $( document ).ready(function( $ ) {
                     thumbnailPointer: false,
                     thumbnailArrows: false,
                     arrows: false,
-					thumbnailWidth: 0,
-					thumbnailHeight: 0
+					thumbnailWidth: 50,
+					thumbnailHeight: 50
 				},
 				500: {
 					thumbnailsPosition: 'bottom',
                     thumbnailPointer: false,
                     thumbnailArrows: false,
                     arrows: false,
-					thumbnailWidth: 0,
-					thumbnailHeight: 0
+					thumbnailWidth: 50,
+					thumbnailHeight: 50
 				}
 			}
 		});
         // instantiate fancybox when a link is clicked
-		$( '#example2 .sp-image' ).parent( 'a' ).on( 'click', function( event ) {
+		$( '#slide-1 .sp-image' ).parent( 'a' ).on( 'click', function( event ) {
 			event.preventDefault();
 
 			// check if the clicked link is also used in swiping the slider
 			// by checking if the link has the 'sp-swiping' class attached.
 			// if the slider is not being swiped, open the lightbox programmatically,
 			// at the correct index
-			if ( $( '#example2' ).hasClass( 'sp-swiping' ) === false ) {
-				$.fancybox.open( $( '#example2 .sp-image' ).parent( 'a' ), { index: $( this ).parents( '.sp-slide' ).index() } );
+			if ( $( '#slide1' ).hasClass( 'sp-swiping' ) === false ) {
+				$.fancybox.open( $( '#slide1 .sp-image' ).parent( 'a' ), { index: $( this ).parents( '.sp-slide' ).index() } );
 			}
 		});
 	});
