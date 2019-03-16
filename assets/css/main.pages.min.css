@@ -2006,7 +2006,7 @@ html.no-webp .instagram-footer {
 
 @media only screen and (-Webkit-min-device-pixel-ratio:1.5),only screen and (-moz-min-device-pixel-ratio:1.5),only screen and (-o-min-device-pixel-ratio:3/2),only screen and (min-device-pixel-ratio:1.5) {
   .breadcrumb li a:after {
-    background: url(../images/bcrums-arrow@2x.png) no-repeat;
+    background: url(bcrums-arrow@2x.png) no-repeat;
     background-size: 6px 10px;
   }
 }
@@ -2297,7 +2297,7 @@ b {
 }
 
 .breadcrumb li a, .breadcrumb li.open-page {
-  font: 13px Exo2Italic;
+  font: 10px Open Sans;
 }
 
 .fullscrin-bg {
@@ -2314,15 +2314,16 @@ b {
 }
 
 .breadcrumb {
-  padding: 20px 40px;
+  padding: 5px 30px;
 }
 
 .breadcrumb li {
   display: inline-block;
+  color: #000;
 }
 
 .breadcrumb li a {
-  color: #7d7d7d;
+  color: #b1afaf;
 }
 
 .breadcrumb li a:hover {
@@ -2333,7 +2334,7 @@ b {
   content: '';
   width: 6px;
   height: 10px;
-  background: url(../images/bcrums-arrow.png) no-repeat;
+  background: url(../../assets/img/bcrums-arrow.png) no-repeat;
   display: inline-block;
   vertical-align: middle;
   margin: 0 5px 0 10px;
