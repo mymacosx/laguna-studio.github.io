@@ -2719,7 +2719,7 @@ html.no-webp .why {
 }
 
 .popular-products, .visiters-carusel {
-  padding-top: 70px;
+  padding-top: 10px;
   max-width: 1130px;
   overflow: hidden;
   margin: 0 auto 60px;
@@ -8195,7 +8195,7 @@ span.action-title:after {
 
 @media screen and (max-width:1200px) {
   .popular-products {
-    padding-top: 4%;
+    padding-top: 0;
   }
 }
 
