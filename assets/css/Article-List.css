@@ -261,9 +261,6 @@
   text-align: right;
 }
 
-.wrap-product-info.title h1 {
-}
-
 @media (max-width: 1024px) {
   .wrap-product-info {
     max-width: 768px;

@@ -3899,14 +3899,6 @@ html.no-webp .why {
   display: none;
 }
 
-.wrap-product-info .title h1 {
-  font: 30px Exo2Bold;
-  margin-bottom: 15px;
-  text-align: left;
-  margin-top: 0;
-  line-height: 32px;
-}
-
 .wrap-product-info .title .articul span {
   font-size: 13px;
 }
@@ -3924,13 +3916,13 @@ html.no-webp .why {
   content: '';
   width: 12px;
   height: 12px;
-  background: url(../images/ok.png) no-repeat;
+  background: url(ok.png) no-repeat;
   display: inline-block;
   margin-right: 4px;
 }
 
 .wrap-product-info .title .articul span.not-found:before {
-  background: url(../images/cancel.svg) no-repeat!important;
+  background: url(cancel.svg) no-repeat!important;
   background-size: 12px!important;
 }
 
@@ -10968,7 +10960,7 @@ span.action-title:after {
 }
 
 @media screen and (max-width:765px) {
-  .wrap-product-info .col-lg-6 .title h1 {
+  .wrap-product-info .col-lg-6 .title {
     font-size: 20px;
     margin-bottom: 5px;
   }
@@ -13476,5 +13468,13 @@ span.action-title:after {
   .pgwSlider > ul > li img {
     width: auto!important;
   }
+}
+
+.wrap-product-info .title h1 {
+  font: 30px Open Sans;
+  text-align: left;
+  margin-bottom: 15px;
+  margin-top: 0;
+  line-height: 32px;
 }
 
