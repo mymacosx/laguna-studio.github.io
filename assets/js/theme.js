@@ -7,7 +7,7 @@ $( document ).ready(function( $ ) {
             fade: true,
 			arrows: true,
 			buttons: false,
-            //startSlide: 0,
+            startSlide: 0,
             imageScaleMode: 'contain',
             //autoScaleLayers: false
 			thumbnailsPosition: 'left',
@@ -42,18 +42,6 @@ $( document ).ready(function( $ ) {
 					thumbnailWidth: 50,
 					thumbnailHeight: 50
 				}
-			}
-		});
-        // instantiate fancybox when a link is clicked
-		$( '#slide-1 .sp-image' ).parent( 'a' ).on( 'click', function( event ) {
-			event.preventDefault();
-
-			// check if the clicked link is also used in swiping the slider
-			// by checking if the link has the 'sp-swiping' class attached.
-			// if the slider is not being swiped, open the lightbox programmatically,
-			// at the correct index
-			if ( $( '#slide1' ).hasClass( 'sp-swiping' ) === false ) {
-				$.fancybox.open( $( '#slide1 .sp-image' ).parent( 'a' ), { index: $( this ).parents( '.sp-slide' ).index() } );
 			}
 		});
 	});
