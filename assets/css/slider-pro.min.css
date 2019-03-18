@@ -257,12 +257,12 @@
 
 .sp-black {
   color: #FFF;
-  background: #000;
+  background: #040404;
   background: rgba(0,0,0,.7);
 }
 
 .sp-white {
-  color: #000;
+  color: #0a0a0a;
   background: #fff;
   background: rgba(255,255,255,.7);
 }
@@ -276,11 +276,11 @@
 }
 
 .sp-grab {
-  cursor: url(images/openhand.cur),move;
+  cursor: url(openhand.cur),move;
 }
 
 .sp-grabbing {
-  cursor: url(images/closedhand.cur),move;
+  cursor: url(closedhand.cur),move;
 }
 
 .sp-selectable {
@@ -294,23 +294,24 @@
 
 .sp-full-screen {
   margin: 0!important;
-  background-color: #000;
+  background-color: rgba(235,242,245,0.36);
 }
 
 .sp-full-screen-button {
   position: absolute;
   top: 5px;
-  right: 10px;
-  font-size: 30px;
+  right: 12px;
+  font-size: 1px;
   line-height: 1;
-  cursor: pointer;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+  cursor: auto;
+  color: #415438;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 
 .sp-full-screen-button:before {
-  content: '\2195';
+  content: url(zoom.png);
 }
 
 .sp-fade-full-screen {
@@ -333,7 +334,7 @@
 .sp-button {
   width: 10px;
   height: 10px;
-  border: 2px solid #000;
+  border: 2px solid #0b0b0b;
   border-radius: 50%;
   margin: 4px;
   display: inline-block;

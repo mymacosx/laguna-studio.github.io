@@ -39,6 +39,16 @@ $( document ).ready(function( $ ) {
                     thumbnailPointer: false,
                     thumbnailArrows: false,
                     arrows: false,
+                    fade: false,
+					thumbnailWidth: 50,
+					thumbnailHeight: 50
+				},
+                300: {
+					thumbnailsPosition: 'bottom',
+                    thumbnailPointer: false,
+                    thumbnailArrows: false,
+                    arrows: false,
+                    fade: false,
 					thumbnailWidth: 50,
 					thumbnailHeight: 50
 				}

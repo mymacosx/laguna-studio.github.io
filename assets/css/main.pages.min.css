@@ -3922,7 +3922,7 @@ html.no-webp .why {
 }
 
 .wrap-product-info .title .articul span.not-found:before {
-  background: url(cancel.svg) no-repeat!important;
+  background: url(../../assets/img/cancel.svg) no-repeat!important;
   background-size: 12px!important;
 }
 
