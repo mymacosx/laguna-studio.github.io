@@ -32,6 +32,7 @@ $( document ).ready(function( $ ) {
                     thumbnailArrows: false,
                     arrows: false,
                     fullScreen: true,
+                    imageScaleMode: 'contain',
 					thumbnailWidth: 50,
 					thumbnailHeight: 50
 				},
@@ -42,6 +43,7 @@ $( document ).ready(function( $ ) {
                     arrows: false,
                     fade: false,
                     fullScreen: true,
+                    imageScaleMode: 'cover',
 					thumbnailWidth: 50,
 					thumbnailHeight: 50
 				},
@@ -52,6 +54,7 @@ $( document ).ready(function( $ ) {
                     arrows: false,
                     fade: false,
                     fullScreen: true,
+                    imageScaleMode: 'cover',
 					thumbnailWidth: 50,
 					thumbnailHeight: 50
 				}
