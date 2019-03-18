@@ -301,17 +301,17 @@
   position: absolute;
   top: 5px;
   right: 12px;
-  font-size: 1px;
+  font-size: 60px;
   line-height: 1;
   cursor: auto;
-  color: #415438;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
+  color: #070707;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .sp-full-screen-button:before {
-  content: url(zoom.png);
+  content: "\26B2";
 }
 
 .sp-fade-full-screen {
