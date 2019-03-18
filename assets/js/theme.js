@@ -1,4 +1,4 @@
-$( document ).ready(function( $ ) {
+/*$( document ).ready(function( $ ) {
 		$( '#slide-1' ).sliderPro({
             width: 400,
 			height: 400,
@@ -64,6 +64,33 @@ $( document ).ready(function( $ ) {
 				}
 			}
 		});
+	});*/
+$( document ).ready(function( $ ) {
+		$( '#slide-1' ).sliderPro({
+			width: 400,
+			height: 400,
+			orientation: 'vertical',
+			loop: false,
+			arrows: true,
+			buttons: false,
+            fullScreen: true,
+			thumbnailsPosition: 'left',
+			thumbnailPointer: true,
+			thumbnailWidth: 290,
+			breakpoints: {
+				800: {
+					thumbnailsPosition: 'bottom',
+					thumbnailWidth: 270,
+					thumbnailHeight: 100
+				},
+				500: {
+					thumbnailsPosition: 'bottom',
+					thumbnailWidth: 120,
+					thumbnailHeight: 50
+				}
+			}
+		});
 	});
+
 
 
