@@ -37,6 +37,8 @@ $( document ).ready(function( $ ) {
 					thumbnailHeight: 50
 				},
 				500: {
+                    width: 300,
+			        height: 300,
 					thumbnailsPosition: 'bottom',
                     thumbnailPointer: false,
                     thumbnailArrows: false,
@@ -47,7 +49,9 @@ $( document ).ready(function( $ ) {
 					thumbnailWidth: 50,
 					thumbnailHeight: 50
 				},
-                300: {
+                320: {
+                    width: 300,
+			        height: 300,
 					thumbnailsPosition: 'bottom',
                     thumbnailPointer: false,
                     thumbnailArrows: false,
