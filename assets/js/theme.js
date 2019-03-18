@@ -1,4 +1,4 @@
-/*$( document ).ready(function( $ ) {
+$( document ).ready(function( $ ) {
 		$( '#slide-1' ).sliderPro({
             width: 400,
 			height: 400,
@@ -15,7 +15,7 @@
             //aspectRatio: 1,
 			//visibleSize: 100,
 			//forceSize: 'fullWidth'
-            //fullScreen: true,
+            fullScreen: true,
             //fadeFullScreen: true,
             //shuffle: false,
             //smallSize: 500,
@@ -31,7 +31,7 @@
                     thumbnailPointer: false,
                     thumbnailArrows: false,
                     arrows: false,
-                    //fullScreen: true,
+                    fullScreen: true,
                     imageScaleMode: 'contain',
 					thumbnailWidth: 50,
 					thumbnailHeight: 50
@@ -44,7 +44,7 @@
                     thumbnailArrows: false,
                     arrows: false,
                     fade: false,
-                    //fullScreen: true,
+                    fullScreen: true,
                     imageScaleMode: 'cover',
 					thumbnailWidth: 50,
 					thumbnailHeight: 50
@@ -64,8 +64,8 @@
 				}
 			}
 		});
-	});*/
-$( document ).ready(function( $ ) {
+	});
+/*$( document ).ready(function( $ ) {
 		$( '#slide-1' ).sliderPro({
 			width: 400,
 			height: 400,
@@ -90,7 +90,7 @@ $( document ).ready(function( $ ) {
 				}
 			}
 		});
-	});
+	});*/
 
 
 
