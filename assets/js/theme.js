@@ -1,10 +1,10 @@
 $( document ).ready(function( $ ) {
 		$( '#slide-1' ).sliderPro({
-            //width: 400,
-			//height: 400,
+            width: 400,
+			height: 400,
 			//orientation: 'horizontal',
 			loop: false,
-            fade: true,
+            //fade: true,
 			arrows: true,
 			buttons: false,
             startSlide: 0,
