@@ -27,31 +27,30 @@ $( document ).ready(function( $ ) {
             thumbnailHeight: 60,
 			breakpoints: {
 				800: {
+                    
 					thumbnailsPosition: 'bottom',
                     thumbnailPointer: false,
                     thumbnailArrows: false,
                     arrows: false,
                     //fullScreen: true,
                     //imageScaleMode: 'contain',
-					thumbnailWidth: 50,
-					thumbnailHeight: 50
+					thumbnailWidth: 70,
+					thumbnailHeight: 70
 				},
 				500: {
-                    width: 300,
-			        height: 300,
+                    
 					thumbnailsPosition: 'bottom',
                     thumbnailPointer: false,
                     thumbnailArrows: false,
-                    arrows: false,
+                    arrows: true,
                     fade: false,
                     //fullScreen: true,
                     //imageScaleMode: 'cover',
-					thumbnailWidth: 50,
-					thumbnailHeight: 50
+					thumbnailWidth: 70,
+					thumbnailHeight: 70
 				},
                 320: {
-                    width: 300,
-			        height: 300,
+                    
 					thumbnailsPosition: 'bottom',
                     thumbnailPointer: false,
                     thumbnailArrows: false,
