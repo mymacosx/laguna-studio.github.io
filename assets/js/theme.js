@@ -1,8 +1,8 @@
 $( document ).ready(function( $ ) {
 		$( '#slide-1' ).sliderPro({
-            width: 400,
-			height: 400,
-			orientation: 'horizontal',
+            //width: 400,
+			//height: 400,
+			//orientation: 'horizontal',
 			loop: false,
             fade: true,
 			arrows: true,
