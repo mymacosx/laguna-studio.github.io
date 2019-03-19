@@ -98,9 +98,12 @@ $( document ).ready(function( $ ) {
 			loop: false,
 			arrows: true,
 			buttons: false,
-			thumbnailsPosition: 'right',
-			thumbnailPointer: true,
+            fade: true,
+            autoplay: false,
+			thumbnailsPosition: 'left',
+			thumbnailPointer: false,
 			thumbnailWidth: 60,
+            thumbnailHeight: 60,
 			breakpoints: {
 				800: {
 					thumbnailsPosition: 'bottom',
