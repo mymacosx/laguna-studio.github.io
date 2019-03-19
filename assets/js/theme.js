@@ -4,11 +4,11 @@ $( document ).ready(function( $ ) {
 			height: 400,
 			//orientation: 'horizontal',
 			loop: false,
-            //fade: true,
+            fade: true,
 			arrows: true,
 			buttons: false,
-            startSlide: 0,
-            imageScaleMode: 'contain',
+            //startSlide: 0,
+            //imageScaleMode: 'contain',
             //autoScaleLayers: false
 			thumbnailsPosition: 'left',
 			thumbnailPointer: false,
@@ -32,7 +32,7 @@ $( document ).ready(function( $ ) {
                     thumbnailArrows: false,
                     arrows: false,
                     //fullScreen: true,
-                    imageScaleMode: 'contain',
+                    //imageScaleMode: 'contain',
 					thumbnailWidth: 50,
 					thumbnailHeight: 50
 				},
@@ -45,7 +45,7 @@ $( document ).ready(function( $ ) {
                     arrows: false,
                     fade: false,
                     //fullScreen: true,
-                    imageScaleMode: 'cover',
+                    //imageScaleMode: 'cover',
 					thumbnailWidth: 50,
 					thumbnailHeight: 50
 				},
@@ -58,7 +58,7 @@ $( document ).ready(function( $ ) {
                     arrows: false,
                     fade: false,
                     //fullScreen: true,
-                    imageScaleMode: 'cover',
+                    //imageScaleMode: 'cover',
 					thumbnailWidth: 50,
 					thumbnailHeight: 50
 				}
