@@ -91,9 +91,6 @@
   margin: 0 0 10px 10px;
 }
 
-.cena {
-}
-
 .row.product-large {
   margin-top: 5px;
 }
@@ -196,12 +193,6 @@
   font-size: 45px;
 }
 
-.navbar.navbar-light.navbar-expand-xl.bg-white.shadow-sm.nav-space {
-}
-
-.navbar.navbar-light.navbar-expand-lg.sticky-top.bg-light.text-sm-center.text-md-center.shadow-none.nav-space-up {
-}
-
 @media (min-width: 1190px) {
   .text-capitalize.text-center.d-xl-flex.justify-content-xl-center.align-items-xl-center.slogan-one {
     font-family: 'Bad Script', cursive;
@@ -265,6 +256,7 @@
   .wrap-product-info {
     max-width: 768px;
     margin: 20px auto;
+    margin-top: 50px;
   }
 }
 
@@ -282,23 +274,13 @@
 .wrap-product-info.content {
   display: inline-block;
   padding-bottom: 40px;
+  margin-top: 50px;
 }
 
 @media (max-width: 1200px) {
   .wrap-product-info.col-lg-6 {
     width: 346px;
   }
-}
-
-.pgwSlider {
-  width: 100%;
-  color: #fff;
-}
-
-.pgwSlider a {
-  display: block;
-  text-decoration: none;
-  color: #fff;
 }
 
 @media (min-width: 992px) {
