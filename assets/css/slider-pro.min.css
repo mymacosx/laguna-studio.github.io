@@ -533,7 +533,7 @@
   display: block;
   width: 15px;
   height: 25px;
-  cursor: pointer;
+  cursor: auto;
 }
 
 .sp-left-thumbnails .sp-thumbnail-arrows .sp-thumbnail-arrow, .sp-right-thumbnails .sp-thumbnail-arrows .sp-thumbnail-arrow {
