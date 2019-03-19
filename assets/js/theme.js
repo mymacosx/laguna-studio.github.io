@@ -1,4 +1,4 @@
-$( document ).ready(function( $ ) {
+/*$( document ).ready(function( $ ) {
 		$( '#slide-1' ).sliderPro({
             width: 400,
 			height: 400,
@@ -63,7 +63,7 @@ $( document ).ready(function( $ ) {
 				}
 			}
 		});
-	});
+	});*/
 /*$( document ).ready(function( $ ) {
 		$( '#slide-1' ).sliderPro({
 			width: 400,
@@ -90,6 +90,31 @@ $( document ).ready(function( $ ) {
 			}
 		});
 	});*/
+$( document ).ready(function( $ ) {
+		$( '#slide-1' ).sliderPro({
+			width: 400,
+			height: 400,
+			orientation: 'vertical',
+			loop: false,
+			arrows: true,
+			buttons: false,
+			thumbnailsPosition: 'right',
+			thumbnailPointer: true,
+			thumbnailWidth: 60,
+			breakpoints: {
+				800: {
+					thumbnailsPosition: 'bottom',
+					thumbnailWidth: 70,
+					thumbnailHeight: 70
+				},
+				500: {
+					thumbnailsPosition: 'bottom',
+					thumbnailWidth: 50,
+					thumbnailHeight: 50
+				}
+			}
+		});
+	});
 
 
 
