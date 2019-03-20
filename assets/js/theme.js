@@ -97,8 +97,11 @@ $(document).ready(function(){
         slideWidth: 400,
         touchEnabled: true,
         infiniteLoop: false,
-        hideControlOnEnd: false,
-        pager: false,
+        preloadImages: 'all',
+        hideControlOnEnd: true,
+        //mode: 'fade',
+        pager: true,
+        pagerType: 'short',
         responsive: true,
         captions: true
   });
