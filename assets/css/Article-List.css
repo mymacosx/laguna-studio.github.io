@@ -74,6 +74,7 @@
 .row {
   margin-left: -15px;
   margin-right: -15px;
+  margin-top: 20px;
 }
 
 .product-small {
@@ -320,5 +321,9 @@
 
 .breadcrumb {
   background-color: #ffffff;
+}
+
+.bx-wrapper {
+  margin-left: 100px;
 }
 
