@@ -327,3 +327,7 @@
   margin-left: 100px;
 }
 
+.d-xl-flex.flex-grow-1.justify-content-between {
+  margin-left: 50px;
+}
+
