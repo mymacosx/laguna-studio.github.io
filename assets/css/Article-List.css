@@ -72,9 +72,10 @@
 }
 
 .row {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-top: 20px;
+  max-width: 98%;
 }
 
 .product-small {
@@ -329,5 +330,13 @@
 
 .d-xl-flex.flex-grow-1.justify-content-between {
   margin-left: 50px;
+}
+
+#oplata-1 {
+  padding-bottom: 50px;
+}
+
+.form-text.text-center.text-muted.help_text {
+  max-width: 500px;
 }
 

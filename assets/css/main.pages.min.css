@@ -8627,18 +8627,6 @@ span.action-title:after {
   }
 }
 
-@media screen and (min-width:890px) {
-  .wrap-category {
-    display: none;
-  }
-}
-
-@media screen and (min-width:1120px) {
-  .wrap-category {
-    display: none;
-  }
-}
-
 @media screen and (max-width:1024px) {
   .wrap-category {
     margin: 20px auto 0;
