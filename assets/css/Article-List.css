@@ -195,7 +195,7 @@
   font-size: 45px;
 }
 
-@media (min-width: 1190px) {
+@media (min-width: 300px) {
   .text-capitalize.text-center.d-xl-flex.justify-content-xl-center.align-items-xl-center.slogan-one {
     font-family: 'Bad Script', cursive;
     color: #825512;
