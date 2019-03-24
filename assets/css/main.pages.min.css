@@ -2748,6 +2748,8 @@ html.no-webp .why {
   width: 100%;
   height: 350px;
   overflow: hidden;
+  background-position: center;
+  background-size: cover;
   position: relative;
   text-align: center;
 }
@@ -8443,6 +8445,20 @@ span.action-title:after {
 @media screen and (max-width:1024px) {
   .popular-products .product article .image-block, .wrap-catalog .popular-products .product article .image-block {
     height: 240px;
+  }
+}
+
+@media screen and (max-width:1400px) {
+  .popular-products .product article .image-block a > img, .wrap-catalog .popular-products .product article .image-block a > img {
+    height: 100%;
+    width: auto;
+  }
+}
+
+@media screen and (max-width:2500px) {
+  .popular-products .product article .image-block a > img, .wrap-catalog .popular-products .product article .image-block a > img {
+    height: 100%;
+    width: auto;
   }
 }
 
