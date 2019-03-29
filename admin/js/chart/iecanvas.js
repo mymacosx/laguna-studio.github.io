@@ -1,0 +1,5 @@
+function ieCanvasInit(htcFile){var ie,opera,a,nodes,i,oVml,oStyle,newNode;ie=navigator.appVersion.match(/MSIE (\d\.\d)/);opera=(navigator.userAgent.toLowerCase().indexOf("opera")!=-1);if((!ie)||(ie[1]<6)||(opera)){return;}
+nodes=document.getElementsByTagName('canvas');for(i=0;i<nodes.length;i++){node=nodes[i];if(node.getContext){return;}
+newNode=document.createElement('canvas');newNode.id=node.id;newNode.style.width=node.width;newNode.style.height=node.height;node.parentNode.replaceChild(newNode,node);}
+document.namespaces.add("v");oVml=document.createElement('object');oVml.id='VMLRender';oVml.codebase='vgx.dll';oVml.classid='CLSID:10072CEC-8CC1-11D1-986E-00A0C955B42E';document.body.appendChild(oVml);if((!htcFile)||(htcFile=='')){htcFile='iecanvas.htc';}
+oStyle=document.createStyleSheet();oStyle.addRule('canvas',"behavior: url('"+htcFile+"');");oStyle.addRule('v\\:*',"behavior: url(#VMLRender);");}

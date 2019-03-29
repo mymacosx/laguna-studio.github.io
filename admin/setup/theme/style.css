@@ -1,0 +1,158 @@
+@charset "UTF-8";
+body, div, td, th, .button, textarea, input, button, select {
+    font: 12px arial, tahoma, 'bitstream vera sans';
+    color: #20252d
+}
+body, #body {
+    background-image: url('../../setup/images/bg.gif');
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto
+}
+#body {
+    width: 800px;
+    min-width: 800px
+}
+html, body {
+    height: 100%
+}
+.input, .input_fields, select {
+    border: 1px inset #959595;
+    padding: 2px
+}
+h1 {
+    font-size: 180%
+}
+h2 {
+    font-size: 150%
+}
+h3 {
+    font-size: 130%
+}
+h1, h2, h3, form {
+    display: inline
+}
+p {
+    display: block;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    margin-left: 0px
+}
+.box a:link, .box a:visited, #body a.link, #body a.visited, a.box:link, a.box:visited, a:link, a:visited {
+    color: #000;
+    text-decoration: none
+}
+a:hover {
+    color: #d25a0b;
+    text-decoration: underline
+}
+.body_border {
+    padding: 10px;
+    background-color: #f0f0f0
+}
+.body_padding {
+    padding: 10px;
+    background-color: #d25a0b
+}
+.header {
+    text-align: center;
+    padding-bottom: 10px;
+    height: 128px
+}
+.headers {
+    padding: 10px;
+    color: #d25a0b;
+    font-size: 120%;
+    font-weight: bold;
+    background-color: #f0f0f0
+}
+.errorbox {
+    background: #FF0000;
+    padding: 10px;
+    color: #fff;
+    margin: 10px 0 5px 0px
+}
+.error_conn {
+    color: #FF0000;
+    font-weight: bold;
+    background: #fff;
+    margin-bottom: 5px;
+    padding: 5px
+}
+.error_nw {
+    padding: 1px;
+    border-bottom: 1px solid #f0f0f0;
+    margin: 2px
+}
+.content {
+}
+.eula {
+    font-family: Courier New, Courier, monospace;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    height: 300px;
+    overflow: auto;
+    background-color: #f0f0f0
+}
+.eula a:link, .eula a:visited {
+    color: #d25a0b;
+    text-decoration: underline;
+    font-weight: bold
+}
+.button_steps {
+    text-align: center;
+    margin-top: 10px
+}
+.button_steps input {
+    background-color: #f0f0f0;
+    padding: 2px;
+    cursor: pointer;
+    color: #d25a0b;
+    font-size: 14px;
+    font-weight: bold
+}
+.box {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    font-size: 100%
+}
+.error {
+    color: #d25a0b;
+    font-weight: bold
+}
+label.error {
+    float: none;
+    font-weight: bold
+}
+label.checked {
+    float: none;
+    font-weight: bold;
+    color: #00CC00;
+    width: 20px
+}
+input:focus, input.error, input.error:focus, textarea.error, textarea.error:focus {
+    border: 1px solid #d25a0b;
+    margin-right: 5px
+}
+.footer {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 15px
+}
+.footer a:link, .footer a:visited {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold
+}
+.status {
+    position: absolute;
+    z-index: 1000;
+    border: 1px solid #D25A0B;
+    background: #fff;
+    padding: 5px;
+    color: #333
+}

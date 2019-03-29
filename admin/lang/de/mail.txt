@@ -1,0 +1,325 @@
+cheaper_subject = "Заказ товара с пометкой Хочу Дешевле"
+cheaper_send = """Здравствуйте Администратор,
+в магазине на __URL__ оставлена заявка на товар с пометкой Хочу Дешевле.
+
+Данные заявки:
+
+Дата:            __DATUM__
+Название товара: __PRODUCT__
+Цена на товар:   __PRICE__
+Ссылка на товар: __LINK__
+
+Данные указанные отправителем:
+
+Где Вы видели этот товар: __WHERE__
+Текст сообщения:          __TEXT__
+
+Данные отправителя
+
+IP отправителя:     __IP__
+E-mail отправителя: __MAIL__
+Имя отправителя:    __USERNAME__
+"""
+
+ShopPriceAlertEmailSubject = "Уведомление о заявке на товар по цене покупателя"
+ShopPriceAlertEmail = """Здравствуйте Администратор,
+в магазине на __URL__ оставлена заявка на товар по цене пользователя.
+
+Данные заявки:
+
+IP Пользователя:           __IP__
+E-mail-адрес Пользователя: __MAIL__
+Имя Пользователя:          __USERNAME__
+Дата:                      __DATUM__
+ID товара:                 __ID__
+Название товара:           __PRODNAME__
+Ссылка на товар:           __LINK__
+Указанная цена:            __SUMM__
+"""
+
+ForumFriendSendSubj = "Interessante Ratschlaege von einer Site Benutzer __URL__ "
+ForumFriendSend = """Hallo!
+
+Benutzer __USER__ von der Website __URL__ sandte eine Botschaft und sagte, es wird interessant sein fur dich.
+Text-Nachrichten:
+__TEXT__
+"""
+
+SystemOrderSendSubj = "System Order von der Seite __URL__ "
+SystemOrderSend = """Hallo!
+Member Site __URL__ schickte eine im OsUp CMS.
+
+der Text der Arbeit: __ORDER__
+
+Frist: __DATA__
+
+Budget: __SUM__
+"""
+
+SystemErrorSendSubj = "Die Fehlermeldung im OsUp CMS von der Seite __URL__ "
+SystemErrorSend = """Hallo!
+Member Site __URL__ schickte einen Fehler im Osup CMS aufgetreten.
+
+der Text der Fehlermeldung: __ERROR__
+
+die Daten-Browser: __AGENT__
+
+Message User: __MESAGE__
+"""
+
+ErrorEmailSendSubj = "Erfolglose Anmeldung auf der Website __URL__ "
+ErrorEmailSend = """Hallo!
+
+Auf unserer Website __URL__ war ein Versuch, sich mit Ihrer E-Mail-Adresse anmelden __MAIL__
+
+Leider Adresse __MAIL__ nicht in unserer Datenbank gefunden. Wenn Sie auf der Website registriert __URL__ , ist es moglich, Eintrag, den Sie verwendet eine andere E-Mail-Adresse.
+"""
+
+body_to_mods_moderated = """Hallo __MODS__!
+Auf dem Forum, in dem Sie einen Moderator, erstellten Benutzer __USER__ ein neues Thema.
+
+Datum der Gr&uuml;ndung: __DATUM__
+Betreff: __BETREFF__
+
+Um zu &uuml;berprufen, das Thema gehen Sie hier:
+__LINK__"""
+
+Newsletter_UnsubscribeInf_html = """Sehr geehrter Nutzer,<br />Sie erhalten diesen Newsletter, weil gezeichnet, um es auf __WEBSEITE__. Sie konnen sich durch einen Klick auf den untenstehenden Link: <br /> __LINK__"""
+
+Newsletter_UnsubscribeInf_html2 = """Willkommen __BENUTZER__! <br /> Sie erhalten diese E-Mail auf der Website __WEBSEITE__ registriert und damit das System Mail <strong> </ strong> in Ihrem Profil erhalten. Sie konnen unsubscribe, schalten Sie das System <strong> Empfangen von Mail </ strong> in Ihrem Profil."""
+
+NewComplaintSubj = "Sent eine Beschwerde an einen Forenbeitrag"
+NewComplaintSend = """Hallo __USER__!
+Auf dem Forum beschwerte sich uber die Nachricht, lesen Sie die folgenden:
+
+E-Mail Absender: __MAIL__
+IP-Adresse des Absenders: __IP__
+
+der Text der Beschwerde: __TEXT__
+
+der Text zum post: __MESAGE__
+
+Link zum Beitrag: __URL__
+"""
+
+Body_to_postautor_moderated = """Hallo __USER__,
+Ihre Nachricht im Forum aktiviert worden ist und eingesetzt werden.
+Sie k&ouml;nnen die Nachricht auf den folgenden Link klicken:
+__LINK__
+"""
+
+Activate_Email = """Hallo __USERNAME__!
+Danke fuer die Registrierung bei __WEBSITE__
+
+In dieser E-Mail erhalten Sie ihre Daten fur die Authentifizierung in unserem System.
+
+E-mail:   __EMAIL__
+Kennwort:   __PASS__
+
+Im Moment ist Ihr Konto nicht aktiv, um die Registrierung zu bestaetigen, folgen Sie den unten stehenden Link:
+__LINK__
+
+Mit freundlichen Gruessen, __WEBSITENAME__
+"""
+
+Reg_Email_Admin = """Hallo Admin,
+Es hat sich ein neuer Benutzer registriert.
+
+Daten:
+
+Benutzername:     __USERNAME__
+E-Mail-Adresse:   __EMAIL__
+Passwort:         ***********
+Datum:            __TIME__
+IP:               __IP__
+"""
+
+NewLinksSendSubj = "Ein neuer Link"
+NewLinksSend = """Hallo Administrator!
+Die Website bietet einen neuen Link, lesen Sie die folgenden:
+
+Name: __NAME__
+
+Link: __URL__
+
+Beschreibung: __DESCR__
+
+"""
+
+MailFaqSendSubj = "Die Antwort auf Ihre Frage ist gegeben durch __LINK__"
+MailFaqSend = """Hallo!
+Veroeffentlicht Antwort auf die Frage von Ihnen __DATUM__
+
+Die Frage war, so:
+__QUEST__
+
+Text:
+__TEXT__
+
+Vertraut mit der Antwort, konnen Sie auch einen Klick auf den untenstehenden Link:
+__LINK__
+"""
+
+NewFaqSendSubj = "Stellen Sie eine neue Frage in der Frage-Antwort"
+NewFaqSend = """Hallo Administrator!
+Das System FAQ senden Sie eine neue Frage, lesen tekctom:
+
+__TEXT__
+
+Аdresse fur die Kommunikation mit dem Anwender die Frage gestellt: __MAIL__
+"""
+
+Friends_Emailbody = """Hallo __USER__,
+Sie haben einen Vorschlag __AUTOR__ Freunde geworden empfangen.
+Bitte klicken Sie auf den Link unten, um Profil zu besuchen
+__LINK__
+Das wurde bestatigen oder zu verwerfen das Angebot, zu Ihrem Profil gehen auf den folgenden Link
+__LINK2__
+"""
+
+NewPassMailSend = """Neues Passwort,
+Sie haben erfolgreich den Bestatigungs-Code fur die Passwort-Wiederherstellung auf __WEBSITE__ eingegebenen.
+
+Ihr neues Passwort: __PASS__
+
+"""
+
+Birthdays_Mail = """Hallo __USER__!
+
+Lassen Sie im Namen der Verwaltung vor Ort, herzlichen Gluckwunsch zu Ihrem Geburtstag!
+Und ich wunsche Ihnen Gesundheit, Gluck, Erfolg, Wohlstand,
+und hoffen auf weitere fruchtbare und vielfaltige Kooperationen.
+"""
+
+Links_E_BrokenText = """Es wurde von __BENUTZER__ (__MAIL__) ein defekter Link gemeldet:
+__LINK__
+
+Fehler-Typ: __GRUND__
+
+Bitte pr&uuml;fen Sie diese Meldung. Bitte l&ouml;schen Sie nach der Pr&uuml;fung die Meldung im Adminbereich, da ansonsten dieser Link nicht erneut gemeldet werden kann.
+"""
+
+Newsletter_text = """Sie erhalten diese E-Mail, da Sie auf __WEBSEITE__ einen Newsletter abonniert haben.
+Bevor Sie diesen Newsletter erhalten, muss dieser jedoch aus Sicherheitsgrьnden von Ihnen aktiviert werden.
+
+Mit der Aktivierung dieses Newsletter bestдtigen Sie, dass Sie diesen Newsletter wirklich von uns erhalten mцchten.
+Einen Link zum Abmelden finden Sie in jedem Newsletter, den Sie von uns erhalten.
+
+Bitte klicken Sie auf den folgenden Link oder kopieren diesen In Ihren Browser:
+__LINK__
+"""
+
+PN_new_pn_emailbody = """Hallo __USER__,
+Sie haben von __AUTOR__ eine neue private Nachricht erhalten.
+Bitte klicken Sie auf den folgenden Link, um die Nachricht zu lesen.
+__LINK__
+"""
+
+Forums_msg_newpost_body = """Hallo __USER__, __AUTOR__ hat am __DATUM__ einen neuen Beitrag in einem Thema verfasst, welches Sie abonniert haben
+---------------------------------------------------------------
+__SUBJECT__
+__MESSAGE__
+---------------------------------------------------------------
+Sie koennen den Beitrag betrachten, indem Sie folgendem Link folgen:
+__LINK__
+"""
+
+Forums_msg_newpost_body_adminnotification = """Hallo,
+Sie erhalten diese E-Mail, da Sie von dem Administrator als Empfaenger aller neuen
+Beitraege dieses Forum eingetragen wurden.
+-----------------------------------------------------------------------
+__USER__ hat am __DATUM__ einen neuen Beitrag mit dem Betreff __SUBJECT__ verfasst:
+__MESSAGE__
+-----------------------------------------------------------------------
+Sie k&ouml;nnen den Beitrag betrachten, in dem Sie folgendem Link folgen:
+__LINK__
+"""
+
+Forums_msg_newpost_body_adminnotification_toactivate = """Hallo,
+__USER__ hat am __DATUM__ einen neuen Beitrag mit dem Betreff __SUBJECT__ verfasst:
+__MESSAGE__
+Dieser Beitrag muss jedoch noch freigeschaltet werden.
+Sie k&ouml;nnen den Beitrag betrachten und gegebenenfalls freischalten, indem Sie folgendem
+Link folgen:
+__LINK__
+"""
+
+f_msg_newtopic_body_adminnotification = """Hallo,
+Sie erhalten diese E-Mail, da Sie von dem Administrator als Empfaenger aller neuen
+Themen dieses Forum eingetragen wurden.
+-----------------------------------------------------------------------
+__USER__ hat am __DATUM__ ein neues Thema mit dem Betreff __SUBJECT__ verfasst:
+__MESSAGE__
+-----------------------------------------------------------------------
+Sie koennen das Thema betrachten, in dem Sie folgendem Link folgen:
+__LINK__
+"""
+
+Forums_body_to_autor_moderated = """Hallo __USER__,
+Ihr Thema wurde freigeschaltet.
+Sie kцnnen das Thema betrachten, indem Sie folgendem Link folgen:
+__LINK__
+"""
+
+Reg_Email_1 = """Hallo __USERNAME__,
+danke fuer die Anmeldung auf __WEBSITE__
+
+Mit dieser E-Mail erhalten Sie die Zugangsdaten, die Sie zum
+einloggen in unser System benoetigen.
+
+E-Mail-Adresse:   __EMAIL__
+Passwort:         __PASS__
+
+Viel Spass wuenscht Ihnen Ihr __WEBSITENAME__ Team.
+"""
+
+PassLostTextMail = """Sehr geehrte Damen und Herren,
+
+Sie oder eine andere Person hat soeben ein neues Kennwort angefordert.
+Um dieses neue Passwort zu aktivieren, mussen Sie folgendem Link folgen:
+__LINK__
+
+Bitte geben Sie dort das Passwort und Ihre E-Mail-Adresse ein, um das neue Passwort zu bestatigen.
+Passwort: __PASS__
+
+---------------------
+Wichtiger Hinweis
+Sollten Sie das neue Passwort nicht angefordert haben, so loschen Sie bitte umgehend diese E-Mail
+und aktivieren Sie das Neue Passwort nicht.
+"""
+
+emailform_homepage_footer = """
+-----------------------------
+Diese E-Mail wurde von dem User __USER__ ueber das E-Mail-Formular der Benutzer-Liste auf __HOMEPAGEURL__ versendet.
+Der Betreiber dieser Seite ist in keinem Fall fьr den Inhalt dieser E-Mail verantwortlich zu machen.
+Sollten Sie in Zukunft keine E-Mail mehr von diesem User erhalten wollen, tragen Sie Diesen bitte in Ihre Ignorier-Liste ein.
+"""
+
+Shop_Settings_AlertText = """Sehr geehrte Damen und Herren,
+
+wir freuen uns, Ihnen mitteilen zu koennen, dass folgender Artikel billiger geworden ist und Ihren Preisvorstellungen nun entspricht:
+
+__PRODUCT__
+
+Alter Preis*: __OLD__ __CURRENCY__
+Neuer Preis*: __NEW__ __CURRENCY__
+
+Bitte folgen Sie folgendem Link, um den Artikel anzusehen:
+
+__LINK__
+
+
+* Es kann sich um Ab-Preise oder Angebote handeln.
+"""
+
+Shop_convertGuestMail = """Sehr geehrte Damen und Herren,
+
+Ihr Account auf __WEBSITE__ wurde angelegt.
+Sie koennen Sich nun mit folgenden Daten einloggen:
+
+E-Mail:    __MAIL__
+Passwort:  __PASS__
+
+Bitte ueberpruefen Sie Ihre Angaben unter 'Mein Konto'. Dort koennen Sie selbstverstaendlich alle Angaben ergaenzen bzw. aendern.
+"""
+
