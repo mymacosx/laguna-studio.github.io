@@ -1,9 +1,0 @@
-<Files .htaccess>
-  Order deny,allow
-  deny from all
-</Files>
-
-<FilesMatch "\.([Pp][Hh][Pp]|[Ii][Nn][Cc]|[Cc][Gg][Ii]|[Pp][LlYy]|[Ss][Hh]|[Pp][Hh][Tt][Mm][Ll])\.?.*">
-  Order allow,deny
-  deny from all
-</FilesMatch>

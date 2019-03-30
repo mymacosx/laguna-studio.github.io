@@ -1,7 +1,0 @@
-User-agent: *
-Disallow: /lang/
-Disallow: /admin/
-Disallow: /class/
-Disallow: /action/
-Disallow: /config/
-Host: www.status-x.ru

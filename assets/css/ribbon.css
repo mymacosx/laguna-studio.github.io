@@ -1,0 +1,93 @@
+.ribbon {
+  height: 100px;
+  position: relative;
+  float: left;
+  margin-bottom: 10px;
+  background-size: contain;
+  text-transform: uppercase;
+  color: white;
+}
+
+.ribbon:nth-child(even) {
+  margin-right: 4%;
+}
+
+@media (max-width: 500px) {
+  .ribbon {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .ribbon:nth-child(even) {
+    margin-right: 0%;
+  }
+}
+
+.ribbon4 {
+  position: absolute;
+  top: 15px;
+  padding: 8px 10px;
+  background: #00B3ED;
+  box-shadow: -1px 2px 3px rgba(0,0,0,.3);
+}
+
+.ribbon4:before, .ribbon4:after {
+  content: "";
+  position: absolute;
+}
+
+.ribbon4:before {
+  width: 7px;
+  height: 100%;
+  top: 0;
+  left: -6.5px;
+  padding: 0 0 7px;
+  background: inherit;
+  border-radius: 5px 0 0 5px;
+}
+
+.ribbon4:after {
+  width: 5px;
+  height: 5px;
+  bottom: -5px;
+  left: -4.5px;
+  background: lightblue;
+  border-radius: 5px 0 0 5px;
+}
+
+.ribbon3 {
+  width: 150px;
+  height: 62px;
+  line-height: 30px;
+  padding-left: 10px;
+  position: absolute;
+  left: -9px;
+  top: 5px;
+  box-shadow: -1px 2px 3px rgba(0,0,0,.3);
+  background: #00b3ed;
+}
+
+.ribbon3:before, .ribbon3:after {
+  content: "";
+  position: absolute;
+}
+
+.ribbon3:before {
+  height: 0;
+  width: 0;
+  top: -8.5px;
+  left: 0.1px;
+  border-bottom: 9px solid black;
+  border-left: 9px solid transparent;
+}
+
+.ribbon3:after {
+  height: 0;
+  width: 0;
+  right: -14.5px;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 0px solid #59324C;
+}
+
